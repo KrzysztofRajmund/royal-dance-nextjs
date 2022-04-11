@@ -21,12 +21,12 @@ const Contact: React.FC = () => {
     <>
       <Meta
         webUrl="https://www.royaldanceszczecin.pl/kontakt"
-        keywords="Szkoła Tańca Szczecin, Latino Solo Szczecin, Zajęcia dla Pań Szczecin, Taniec Szczecin, Lekcje dla nowożeńców Szczecin, Pierwszy Taniec Szczecin"
+        keywords="Zajęcia dla Pań Szczecin,  Latino Solo Szczecin, Zajęcia dla Pań Szczecin, Taniec Szczecin, Lekcje dla nowożeńców Szczecin, Pierwszy Taniec Szczecin"
         type="text"
         title="Royal Dance"
-        description="Szkoła Tańca Szczecin, Latino Solo Szczecin, Zajęcia dla Pań Szczecin, Taniec Szczecin, Lekcje dla nowożeńców Szczecin, Pierwszy Taniec Szczecin"
-        imageUrl="https://royaldanceszczecin.pl/img9.jpg"
-        imageAlt="Szkoła Tańca Szczecin"
+        description=" Zajęcia dla Pań Szczecin,  Latino Solo Szczecin, Taniec Szczecin, Lekcje dla nowożeńców Szczecin, Pierwszy Taniec Szczecin"
+        imageUrl="https://www.royaldanceszczecin.pl/_ipx/w_1080,q_75/%2Fstatic%2Fgallery%2Fimg7.jpg?url=%2Fstatic%2Fgallery%2Fimg7.jpg&w=1080&q=75"
+        imageAlt="Royal Dance Studio"
       />
       <section className="cards-container">
         <article>
