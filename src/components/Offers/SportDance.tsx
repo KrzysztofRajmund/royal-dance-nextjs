@@ -4,6 +4,7 @@ import OffersTwo from "./OffersTwo";
 import Header from "./Header";
 import offerData from "../../offerData.json";
 import { useWindowWidth } from "../utilities/hooks/useWindowWidth";
+import Meta from "../utilities/Meta";
 
 const SportDance: React.FC = () => {
   const windowWidth = useWindowWidth();
@@ -19,6 +20,15 @@ const SportDance: React.FC = () => {
 
   return (
     <>
+      <Meta
+        webUrl="https://www.royaldanceszczecin.pl/taniec-sportowy"
+        keywords="Szkoła Tańca Szczecin, Latino Solo Szczecin, Zajęcia dla Pań Szczecin, Taniec Szczecin, Lekcje dla nowożeńców Szczecin, Pierwszy Taniec Szczecin"
+        type="text image.jpg"
+        title="Taniec sportowy Szczecin"
+        description="Kurs Tańca Szczecin, Taniec sportowy Szczecin, Półkolonie Szczecin, Obozy dla dzieci Szczecin"
+        imageUrl="https://www.royaldanceszczecin.pl/_ipx/w_1080,q_75/%2Fstatic%2Fgallery%2Fimg6-1.jpg?url=%2Fstatic%2Fgallery%2Fimg6-1.jpg&w=1080&q=75"
+        imageAlt="Szkoła Tańca Szczecin"
+      />
       <Header
         menuNav={true}
         image="static/assets/sportdance.jpg"

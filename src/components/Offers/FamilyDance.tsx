@@ -4,6 +4,7 @@ import OffersTwo from "./OffersTwo";
 import Header from "./Header";
 import offerData from "../../offerData.json";
 import { useWindowWidth } from "../utilities/hooks/useWindowWidth";
+import Meta from "../utilities/Meta";
 
 const FamilyDance = () => {
   const windowWidth = useWindowWidth();
@@ -19,6 +20,15 @@ const FamilyDance = () => {
 
   return (
     <>
+      <Meta
+        webUrl="https://www.royaldanceszczecin.pl/taniec-rekreacyjny"
+        keywords="Szkoła Tańca Szczecin, Latino Solo Szczecin, Zajęcia dla Pań Szczecin, Taniec Szczecin, Lekcje dla nowożeńców Szczecin, Pierwszy Taniec Szczecin"
+        type="text"
+        title="Royal Dance Szkoła Tańca"
+        imageUrl="https://www.royaldanceszczecin.pl/_ipx/w_1080,q_75/%2Fstatic%2Fgallery%2Fimg11.jpg?url=%2Fstatic%2Fgallery%2Fimg11.jpg&w=1080&q=75"
+        description="Szkoła Tańca Szczecin, Latino Solo Szczecin, Zajęcia dla Pań Szczecin, Taniec Szczecin, Lekcje dla nowożeńców Szczecin, Pierwszy Taniec Szczecin"
+        imageAlt="Szkoła Tańca Szczecin"
+      />
       <Header
         menuNav={true}
         image="/static/assets/rd-gif.gif"

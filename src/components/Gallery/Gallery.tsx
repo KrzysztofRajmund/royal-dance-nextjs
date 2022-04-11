@@ -3,6 +3,7 @@ import imagesData from "../../imagesData.json";
 import Image from "next/image";
 import ModalGallery from "./ModalGallery";
 import Loading from "../utilities/Loading";
+import Meta from "../utilities/Meta";
 
 const Gallery = () => {
   //type or interfaces
@@ -85,7 +86,16 @@ const Gallery = () => {
   }
 
   return (
-    <React.Fragment>
+    <>
+      <Meta
+        webUrl="https://www.royaldanceszczecin.pl/galeria"
+        keywords="Szkoła Tańca Szczecin, Latino Solo Szczecin, Zajęcia dla Pań Szczecin, Taniec Szczecin, Lekcje dla nowożeńców Szczecin, Pierwszy Taniec Szczecin"
+        type="text"
+        title="Royal Dance"
+        description="Lekcje dla nowożeńców Szczecin, Pierwszy Taniec Szczecin, Szkoła Tańca Szczecin, Latino Solo Szczecin, Zajęcia dla Pań Szczecin, Taniec Szczecin"
+        imageUrl="https://www.royaldanceszczecin.pl/_ipx/w_1080,q_75/%2Fstatic%2Fgallery%2Fimg11.jpg?url=%2Fstatic%2Fgallery%2Fimg11.jpg&w=1080&q=75"
+        imageAlt="Pierwszy Taniec Szczecin"
+      />
       {loading ? (
         <Loading />
       ) : (
@@ -121,7 +131,7 @@ const Gallery = () => {
           </div>
         </section>
       )}
-    </React.Fragment>
+    </>
   );
 };
 
