@@ -11,6 +11,7 @@ const RoyalDance: React.FC = () => {
   return (
     <>
       <Meta
+        webUrl="https://www.royaldanceszczecin.pl/"
         keywords="Szkoła Tańca Szczecin, Latino Solo Szczecin, Zajęcia dla Pań Szczecin, Taniec Szczecin, Lekcje dla nowożeńców Szczecin, Pierwszy Taniec Szczecin"
         type="text"
         title="Royal Dance"

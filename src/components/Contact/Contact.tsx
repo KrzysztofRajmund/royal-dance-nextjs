@@ -20,6 +20,7 @@ const Contact: React.FC = () => {
   return (
     <>
       <Meta
+        webUrl="https://www.royaldanceszczecin.pl/kontakt"
         keywords="Szkoła Tańca Szczecin, Latino Solo Szczecin, Zajęcia dla Pań Szczecin, Taniec Szczecin, Lekcje dla nowożeńców Szczecin, Pierwszy Taniec Szczecin"
         type="text"
         title="Royal Dance"

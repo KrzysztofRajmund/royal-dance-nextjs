@@ -1,9 +1,14 @@
 import Head from "next/head";
 
-const Meta = ({ keywords, type, title, description, imageUrl, imageAlt }) => {
-  const metaDecorator = {
-    hostname: "https://royaldanceszczecin.pl",
-  };
+const Meta = ({
+  keywords,
+  type,
+  webUrl,
+  title,
+  description,
+  imageUrl,
+  imageAlt,
+}) => {
   return (
     <Head>
       <meta
@@ -15,14 +20,7 @@ const Meta = ({ keywords, type, title, description, imageUrl, imageAlt }) => {
       <meta property="og:title" content={title} />
       <meta property="og:type" content={type} />
       <meta name="twitter:image:alt" content={imageAlt} />
-      <meta
-        property="og:url"
-        content={
-          metaDecorator.hostname +
-          window.location.pathname +
-          window.location.search
-        }
-      />
+      <meta property="og:url" content={webUrl} />
       <meta property="og:image" content={imageUrl} />
       <meta charSet="utf-8"></meta>
       <link rel="icon" href="/favicon.ico"></link>

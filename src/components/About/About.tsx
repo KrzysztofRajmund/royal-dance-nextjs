@@ -5,9 +5,10 @@ const About = () => {
   return (
     <>
       <Meta
+        webUrl="https://www.royaldanceszczecin.pl/onaszymstudio"
         keywords="Szkoła Tańca Szczecin, Latino Solo Szczecin, Zajęcia dla Pań Szczecin, Taniec Szczecin, Lekcje dla nowożeńców Szczecin, Pierwszy Taniec Szczecin"
         type="text"
-        title="Royal Dance"
+        title="O naszym studio"
         description="Szkoła Tańca Szczecin, Latino Solo Szczecin, Zajęcia dla Pań Szczecin, Taniec Szczecin, Lekcje dla nowożeńców Szczecin, Pierwszy Taniec Szczecin"
         imageUrl="https://royaldanceszczecin.pl/img9.jpg"
         imageAlt="Szkoła Tańca Szczecin"
