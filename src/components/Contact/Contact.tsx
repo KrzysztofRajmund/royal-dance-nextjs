@@ -36,7 +36,7 @@ const Contact: React.FC = () => {
               <a href="tel:+48-662-175-111">Tel. 662 175 111</a>
               <br />
               <a href="mailto:royaldance.szczecin@gmail.com?&subject=Royal Dance&body=Jak możemy pomóc?">
-                <FontAwesomeIcon icon={faEnvelope} />
+                <FontAwesomeIcon icon={faEnvelope} width={60} height={60} />
               </a>
             </h1>
           </div>
