@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import CardsSlider from "./CardsSlider";
+import Image from "next/image";
 
 const Cards = () => {
   let sliderFirst: any =
@@ -20,7 +21,12 @@ const Cards = () => {
       <article>
         <div className="cards-content">
           <h1>
-            <img src="/logo2.png" alt="logo" />
+            <Image
+              src="/static/assets/logo2.png"
+              alt="logo"
+              width={120}
+              height={120}
+            />
           </h1>
         </div>
         <div className="cards-subcontent">

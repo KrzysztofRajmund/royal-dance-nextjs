@@ -31,8 +31,10 @@ const TopNav = () => {
     if (isDropdownActive) {
       document.addEventListener("click", handleDropdownClick);
     }
-    return () => document.removeEventListener("click", handleDropdownClick);
-  }, [isDropdownActive]);
+    return () => {
+      document.removeEventListener("click", handleDropdownClick);
+    };
+  }, []);
 
   return (
     <nav className="topnav-container">
@@ -50,7 +52,7 @@ const TopNav = () => {
       ) : (
         <React.Fragment>
           <section className="topnav-logo">
-            <Link href="/">
+            <Link href="/" passHref>
               <Image
                 src="/static/assets/logo.png"
                 alt="logo"

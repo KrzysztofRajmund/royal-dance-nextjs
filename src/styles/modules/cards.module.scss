@@ -96,6 +96,14 @@
 .slider-one {
   background-image: url('/static/assets/slide1.jpg');
 }
+
+.map {
+  margin-right: -100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-image: url('/static/assets/royal-dance-map.png');
+}
 // .slider-two {
 //   background-image: url('/static/assets/slide2.jpg');
 // }
@@ -220,6 +228,10 @@
   }
   .show-button {
     display: none;
+  }
+
+  .map {
+    margin-right: 0;
   }
 }
 

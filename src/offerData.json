@@ -1,0 +1,68 @@
+{
+    "offer": [
+        {
+            "id": 1,
+            "url": "img101.jpg",
+            "category": "taniecrekreacyjny",
+            "title": "Dla Kobiet",
+            "subtitle": "Latino Solo dla Pań",
+            "desc": "Zajęcia Latino Solo są skierowane do Pań w każdym wieku. Tutaj poznasz świat tańców latynoamerykańskich, gdzie z głośników nieustannie będą wybrzmiewać rytmy kubańskiej cha-chy, brazylijskiej samby jak również salsy i bachaty itp… Jeśli od dawna myślisz żeby zrobić coś dla siebie i złapać trochę endorfin to są to zajęcia na pewno dla Ciebie."
+        },
+        {
+            "id": 2,
+            "url": "img102.jpg",
+            "category": "taniecrekreacyjny",
+            "title": "Dla Dorosłych",
+            "subtitle": "Kurs Tańca dla Dorosłych",
+            "desc": "Monotonne wieczory? Nie u Nas! W naszej ofercie mamy Kurs Tańca dla Dorosłych, gdzie pod okiem profesjonalnego instruktora rozpoczniemy wspólnie taneczną przygodę. Bez stresu! Zaczynamy od podstaw, dążąc do urozmaiconych choreografii, które będą towarzyszyć Wam zawsze, czy to imprezy okolicznościowe, bale czy wesela, a może też i prawdziwy turniej tańca?"
+        },
+        {
+            "id": 3,
+            "url": "img29.jpg",
+            "category": "taniecrekreacyjny",
+            "title": "Dla Dzieci",
+            "subtitle": "Zajęcia dla dzieci",
+            "desc": "Zajęcia RoyalKids przeznaczone są dla grup wiekowych od 3-6 oraz od 6-10. Na tych zajęciach muzyka gra nieprzerwanie, a zabawa jest nierozłączną częścią tanecznych zmagać. Nasze motto „przez zabawę do tańca” w tej grupie sprawdza się w 100%. Świat cha-chy, samby czy walca angielskiego na pewno zaciekawi Twoje dziecko, a przy okazji wzbogaci Je o doskonały słuch i koordynację ruchową. Dodatkowym atutem jest późniejsza możliwość kontynuacji nauki w Grupach Sportowych."
+        },
+        {
+            "id": 4,
+            "url": "img99.jpg",
+            "category": "taniecrekreacyjny",
+            "title": "Pierwszy Taniec",
+            "subtitle": "Taniec dla Par Młodych",
+            "desc": "Uczymy zupełnie od podstaw, pomagamy na każdym etapie.Pierwszy taniec Młodej Pary jest wyjątkowym i ważnym wydarzeniem, które na długo pozostaje w pamięci Młodej Pary oraz gości weselnych. To świetna okazja przedstawienia gościom Pary Młodej, a w szczególności Panny Młodej w całej okazałości.Przygotuj się z nami do pierwszego tańca weselnego.Wybierz kurs grupowy albo lekcje indywidualne."
+        },
+        {
+            "id": 5,
+            "url": "img23.jpg",
+            "category": "taniecsportowy",
+            "title": "Grupa Sportowa",
+            "subtitle": "Grupa Sportowa",
+            "desc": "Grupa Sport dedykowana jest dla osób, które startują na zawodach okręgowych, ogólnopolskich jak i międzynarodowych. Doświadczona kadra i zaangażowani tancerze to przepis na sukces, który w Naszej Szkole przynosi zamierzone efekty. Treningi z tańców standardowych i latynoamerykańskich, zajęcia ogólnorozwojowe takie jak crossfit i balet to w tej grupie codzienność. Bo mottem tej grupy jest „Mierzymy wysoko!”"
+        },
+        {
+            "id": 6,
+            "url": "img11.jpg",
+            "category": "taniecsportowy",
+            "title": "Pro-Am",
+            "subtitle": "Taniec w systemie Pro-Am",
+            "desc": "Zawsze chciałaś / chciałeś tańczyć ale nigdy nie było na to czasu? Marzysz o tym aby wziąć udział w profesjonalnym turnieju tanecznym?  Nie masz partnera tanecznego ale bardzo chcesz nauczyć się tańczyć? ProAm jest to system nauki tańca polegający na indywidualnej pracy kursanta ze swoim instruktorem. Mówiąc krótko nasz instruktor staje się Twoim partnerem tanecznym."
+        },
+        {
+            "id": 7,
+            "url": "img98.jpg",
+            "category": "taniecsportowy",
+            "title": "Pokazy taneczne",
+            "subtitle": "Profesjonalistyczne pokazy taneczne",
+            "desc": "Zajmujemy się realizacją oprawy tanecznej i choreograficznej wydarzeń takich jak: koncerty, programy telewizyjne, musicale, bale i wiele innych."
+        },
+        {
+            "id": 8,
+            "url": "img8.jpg",
+            "category": "wynajem",
+            "title": "Wynajem Studia",
+            "subtitle": "Wynajem studia dla osób prywatnych i firm",
+            "desc": "W celu otrzymania indywidualnej oferty wynajmu prosze o kontakt telefoniczny."
+        }
+    ]
+}

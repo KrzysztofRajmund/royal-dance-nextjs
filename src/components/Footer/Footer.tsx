@@ -12,7 +12,12 @@ const Footer: React.FC = () => {
   return (
     <section className="footer">
       <article className="footer-top">
-        <Image src="/logo2.png" alt="logo" width={160} height={160} />
+        <Image
+          src="/static/assets/logo2.png"
+          alt="logo"
+          width={160}
+          height={160}
+        />
       </article>
       <article className="footer-middle">
         <h5>Copyrights 2021. Created by RajmundTech</h5>
