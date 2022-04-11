@@ -1,0 +1,25 @@
+.about {
+  article {
+    .cards-subcontent {
+      text-align: center;
+      display: block;
+      .about-link {
+        color: $supplementaryFontColor;
+        &:hover {
+          text-decoration: none;
+          font-weight: bolder;
+        }
+      }
+    }
+
+    .cards-content {
+      h1 {
+        img {
+          width: 150px;
+          height: auto;
+          opacity: 0.6;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.contact-contact {
+  h1 {
+    font-weight: 600;
+  }
+
+  h1:last-of-type {
+    font-weight: 500;
+    a {
+      color: $supplementaryFontColor;
+      text-decoration: none;
+    }
+    a:last-of-type {
+      padding-right: 0.4rem;
+    }
+  }
+}
+
+.contact-address {
+  @include prevent-tab-highlights;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  line-height: 5rem;
+  a{
+    text-decoration: none;
+  }
+  h1:first-of-type {
+    color: $subcontentTitleFontColor;
+    font-size: $titleFontSize;
+    font-weight: 600;
+    &:hover {
+      color: $subcontentTitleFontColor;
+    }
+  }
+  h1 {
+    font-size: $subtitleFontSize;
+    color: $subcontentFontColor;
+    &:hover {
+      color: $supplementaryFontColor;
+    }
+  }
+}

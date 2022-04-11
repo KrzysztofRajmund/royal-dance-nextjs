@@ -1,0 +1,230 @@
+.cards-container {
+  width: 100vw;
+  height: 100vh;
+  padding: 5rem 4rem 5rem 4rem;
+
+  article {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .cards-content,
+    .cards-subcontent,
+    .cards-slider {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.cards-content {
+  z-index: 3;
+  font-size: $titleFontSize;
+  line-height: 5rem;
+  flex: 33%;
+  max-width: 33%;
+  padding: 8rem 4rem 4rem 4rem;
+  text-align: right;
+  color: $whiteFontColor;
+  background-color: $blackBackground;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+      h1 {
+        img {
+          width: 150px;
+          height: auto;
+          opacity: 0.6;
+        }
+      }
+  h1:last-of-type {
+    color: $supplementaryFontColor;
+  }
+}
+
+.cards-subcontent {
+  z-index: 2;
+  flex: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15rem 10rem;
+  text-align: left;
+  background-color: $supplementaryBackground;
+  color: $subcontentFontColor;
+  overflow-x: hidden;
+  overflow-y: auto;
+  min-width: 33%;
+  .cards-subcontent-title {
+    font-size: $subtitleFontSize;
+    font-weight: 900;
+    color: $subcontentTitleFontColor;
+  }
+  p {
+    font-size: $paragraphFontSize;
+  }
+}
+
+//cards slider!!!
+.cards-slider {
+  overflow: hidden;
+  z-index: 1;
+  flex: 33%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+}
+.sliders {
+  width: 300%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  width: 100%;
+  height: 100%;
+  transition: 1s linear;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.slider-one {
+  background-image: url('/static/assets/slide1.jpg');
+}
+// .slider-two {
+//   background-image: url('/static/assets/slide2.jpg');
+// }
+
+// .slider-three {
+//   background-image: url('/static/assets/slide4.jpg');
+// }
+
+.cards-slider.expand {
+  flex: 66%;
+}
+
+.slider-buttons {
+  width: 7rem;
+  height: 6rem;
+  font-size: $paragraphFontSize;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+}
+
+.show-button {
+  z-index: 90;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: $blackBackground;
+  color: $supplementaryFontColor;
+  border-radius: 3px 0px 0px 3px;
+}
+
+.arrows {
+  cursor: pointer;
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  bottom: 0;
+  background-color: #d7be78bb;
+  color: $blackFontColor;
+}
+
+.arrow-right {
+  display: none;
+  right: 0;
+  border-radius: 3px 0px 0px 0px;
+  .right {
+    text-align: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 0.4rem solid $blackFontColor;
+    border-bottom: none;
+    border-left: none;
+    transform: translate(1rem, 1.9rem) rotate(45deg);
+  }
+}
+
+.arrow-left {
+  display: none;
+  left: 0;
+  border-radius: 0px 3px 0px 0px;
+  .left {
+    text-align: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 0.4rem solid $blackFontColor;
+    border-top: none;
+    border-right: none;
+    transform: translate(2rem, 1.9rem) rotate(45deg);
+  }
+}
+
+@media screen and (max-width: 1100px) {
+
+  .cards-content {
+    font-size: calc($titleFontSize / 1.25);
+
+  }
+}
+
+@media screen and (max-width: 825px) {
+  .cards-container {
+    width: 100%;
+    height: 100%;
+
+    article {
+      flex-direction: column;
+      .cards-content,
+      .cards-subcontent,
+      .cards-slider {
+        flex: 100%;
+        min-width: 100%;
+        text-align: center;
+      }
+    }
+  }
+
+  .cards-content {
+    padding: 4.5rem;
+    min-height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cards-subcontent {
+    overflow: hidden;
+    padding: 4.5rem;
+    min-height: 20rem;
+  }
+  .cards-slider {
+    min-height: 60vh;
+    background-color: transparent;
+  }
+
+  .slider {
+    min-height: 60vh;
+    background-size: contain;
+  }
+  .show-button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 345px) {
+  .cards-container {
+    padding: 0;
+  }
+}
