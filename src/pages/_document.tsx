@@ -17,7 +17,10 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta charSet="utf-8" />
-          <meta name="it is royal dance app" content="Royal Dance App" />
+          <meta
+            name="royal dance szkoła tańca"
+            content="Royal Dance Szkoła Tańca"
+          />
           <meta name="author" content="Krzysztof Nadlonek" />
           <link rel="manifest" href="/manifest.json" />
         </Head>

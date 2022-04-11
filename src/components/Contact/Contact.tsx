@@ -4,6 +4,7 @@ import Image from "next/image";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 //components
 import CardsSlider from "../Cards/CardsSlider";
+import Meta from "../utilities/Meta";
 // import MapContact from "./MapContact";
 
 const Contact: React.FC = () => {
@@ -18,6 +19,14 @@ const Contact: React.FC = () => {
   }, []);
   return (
     <>
+      <Meta
+        keywords="Szkoła Tańca Szczecin, Latino Solo Szczecin, Zajęcia dla Pań Szczecin, Taniec Szczecin, Lekcje dla nowożeńców Szczecin, Pierwszy Taniec Szczecin"
+        type="text"
+        title="Royal Dance"
+        description="Szkoła Tańca Szczecin, Latino Solo Szczecin, Zajęcia dla Pań Szczecin, Taniec Szczecin, Lekcje dla nowożeńców Szczecin, Pierwszy Taniec Szczecin"
+        imageUrl="https://royaldanceszczecin.pl/img9.jpg"
+        imageAlt="Szkoła Tańca Szczecin"
+      />
       <section className="cards-container">
         <article>
           <div className="cards-content contact-contact">
