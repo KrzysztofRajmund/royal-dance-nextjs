@@ -50,9 +50,8 @@ const Menu: React.FC<Props> = ({ ...props }) => {
   let data = Object.values(props.menu);
   const loopObject = data.map((item, key) => {
     return (
-      <h4 className="titles-subtitle">
+      <h4 className="titles-subtitle" key={key}>
         <Link
-          key={key}
           to={getIDHandler(item)}
           duration={650}
           spy={true}
