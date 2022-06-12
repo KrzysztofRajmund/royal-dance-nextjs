@@ -28,23 +28,48 @@ const About = () => {
           </div>
           <div className="cards-subcontent">
             <p className="cards-subcontent-title">
-              Szkoła Tańca Royal Dance to miejsce, w którym taniec jest
-              najważniejszy.
+              Szkoła Tańca Royal Dance to miejsce założone przez Magdalenę
+              Geldner tancerkę międzynarodowej klasy tanecznej S, która na swoim
+              tanecznym koncie ma liczne osiągnięcia na arenie polskiej oraz
+              międzynarodowej. <br />
+              Posiada wyższe wykształcenie pedagogiczne. Charakteryzuje się
+              wieloletnim doświadczeniem w pracy z dziećmi i dorosłymi. Szkołę
+              prowadzi z myślą o rozwijaniu nowych, tanecznych talentów.
             </p>
             <br />
             <p>
               {" "}
-              <u>Stawiamy na jakoś i profesjonalizm.</u>
+              <u>Stawiamy na jakoś, profesjonalizm i dobrą atmosferę.</u>
             </p>
+            <h2>Prowadzimy zajęcia dla:</h2>
+            <ul>
+              <li>Grup Sportowych</li>
+              <li>Grup Dziecięcych</li>
+              <li>Pań</li>
+              <li>Par Dorosłych</li>
+              <li>Nowożeńców</li>
+            </ul>
+            <h2>Organizujemy wydarzenia takie jak:</h2>
+            <ul>
+              <li>Obozy sportowe</li>
+              <li>Obozy rekreacyjne</li>
+              <li>Półkolonie dla Dzieci</li>
+              <li>Mikołajkowe i Wakacyjne Turnieje Tańca</li>
+              <li>Warsztaty dla Pań</li>
+              <li>Imprezy Okolicznościowe</li>
+            </ul>
             <p>
               Doświadczona kadra, fantastyczna atmosfera, klimatyczna sala oraz
               pełen profesjonalizm - to wszystko czego możecie doświadczyć
-              przekraczając nasze progi.
+              przekraczając nasze progi. Siedziba Szkoły Tańca mieści się przy
+              ulicy Lelewela 8a, w Szczecinie. Przed szkołą jest darmowy parking
+              oraz sklep Biedronka.
             </p>
             <p>
               Masz trochę wolnego czasu i chcesz wykorzystać go na dobrą zabawę?
+              W takim razie przyjdź na zajęcia próbne, a gwarantujemy, że
+              zostaniesz z nami na dłużej!
             </p>
-            <p>Dołącz do nas !</p>
             {/* {userLocation === "/" ? <p><Link className="about-link" onClick={scrollUp} to="/onas" >czytaj więcej . . .</Link></p> : ""}
                     {userLocation === "/onas" ? <>
                         <p>Szkoleniowcami są : Andrej Mosejcuk i Kamila Kajak trzykrotni Mistrzowie par zawodowych, półfinaliści Mistrzostw Świata Europy oraz półfinaliści Blackpool.Marek Kosaty i Paulina Glazik trzykrotni Mistrzowie Swiata, dwukrotni zwycięzcy Blackpool Festival UK i International Open w Royal Albert Hall.Monika Marszałek tancerka baletu , która pochodzi z Krakowa gdzie uczyła się i pracowała w Operze Krakowskiej , obecnie związana z Operą na Zamku w Szczecinie.
