@@ -33,7 +33,7 @@ const TopJumbotron = ({ windowWidth }: Props) => {
   const subtitle =
     windowWidth && windowWidth <= 365
       ? "szkoła tańca"
-      : "szczecińska szoła tańca";
+      : "szczecińska szkoła tańca";
 
   return (
     <section className="topjumbotron-container">
