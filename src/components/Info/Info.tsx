@@ -5,7 +5,7 @@ import planSport from '../../../public/static/assets/plan-sport.png';
 import cennikRekreacja from '../../../public/static/assets/cennik-rekreacja.png';
 import cennikSport from '../../../public/static/assets/cennik-sport.png';
 
-const Prices: React.FC = () => {
+const Info: React.FC = () => {
     return (
         <>
             <section className="container">
@@ -34,4 +34,4 @@ const Prices: React.FC = () => {
     );
 };
 
-export default Prices;
+export default Info;
