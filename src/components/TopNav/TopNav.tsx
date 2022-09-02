@@ -73,9 +73,8 @@ const TopNav = () => {
               <div
                 ref={dropdownMenuRef}
                 onMouseLeave={() => setIsDropdownActive(false)}
-                className={`dropdown-menu ${
-                  isDropdownActive ? "active" : "not-active"
-                }`}
+                className={`dropdown-menu ${isDropdownActive ? "active" : "not-active"
+                  }`}
               >
                 <Link href="/taniec-rekreacyjny">
                   <a onClick={() => setIsDropdownActive(false)}>
@@ -92,7 +91,7 @@ const TopNav = () => {
                 </Link>
               </div>
             </div>
-            <Link href="/cennik">Cennik</Link>
+            <Link href="/info">Info</Link>
             <Link href="/galeria">Galeria</Link>
             <Link href="/kontakt">Kontakt</Link>
           </section>

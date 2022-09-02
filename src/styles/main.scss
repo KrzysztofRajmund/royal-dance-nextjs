@@ -1,19 +1,20 @@
 @charset "UTF-8";
 
 //utilities
-@import "utilities/variables";
-@import "utilities/functions";
+@import 'utilities/variables';
+@import 'utilities/functions';
 //base
-@import "base/base.module.scss";
+@import 'base/base.module.scss';
 //modules
-@import "modules/topjumbotron.module.scss";
-@import "modules/cards.module.scss";
+@import 'modules/topjumbotron.module.scss';
+@import 'modules/cards.module.scss';
 //layout
-@import "layout/topnav.module.scss";
-@import "layout/footer.module.scss";
-@import "layout/loading.module.scss";
+@import 'layout/topnav.module.scss';
+@import 'layout/footer.module.scss';
+@import 'layout/loading.module.scss';
 //pages
-@import "pages/contact.module.scss";
-@import "pages/gallery.module.scss";
-@import "pages/about.module.scss";
-@import "pages/offers.module.scss";
+@import 'pages/about.module.scss';
+@import 'pages/contact.module.scss';
+@import 'pages/gallery.module.scss';
+@import 'pages/info.module.scss';
+@import 'pages/offers.module.scss';
