@@ -1,9 +1,5 @@
 import Image from 'next/image';
 import React from 'react';
-import planRekreacja from '../../../public/static/assets/plan-rekreacja.png';
-import planSport from '../../../public/static/assets/plan-sport.png';
-import cennikRekreacja from '../../../public/static/assets/cennik-rekreacja.png';
-import cennikSport from '../../../public/static/assets/cennik-sport.png';
 
 const Info: React.FC = () => {
     return (
@@ -12,22 +8,22 @@ const Info: React.FC = () => {
                 <h1>Plan zajęć</h1>
                 <div className="card">
                     <h2>Taniec rekreacyjny</h2>
-                    <Image src={planRekreacja} alt='plan-rekreacja' />
+                    <Image src='/static/assets/plan-rekreacja.png' alt='plan-rekreacja' width={1000} height={661} />
                 </div>
                 <div className="card">
                     <h2>Taniec sportowy</h2>
-                    <Image src={planSport} alt='plan-sport' />
+                    <Image src='/static/assets/plan-sport.png' alt='plan-sport' width={1000} height={541} />
                 </div>
             </section>
             <section className="container">
                 <h1>Cennik zajęć</h1>
                 <div className="card">
                     <h2>Taniec rekreacyjny</h2>
-                    <Image src={cennikRekreacja} alt='cennik-rekreacja' />
+                    <Image src='/static/assets/cennik-rekreacja.png' alt='cennik-rekreacja' width={1000} height={820} />
                 </div>
                 <div className="card">
                     <h2>Taniec sportowy</h2>
-                    <Image src={cennikSport} alt='cennik-sport' />
+                    <Image src='/static/assets/cennik-sport.png' alt='cennik-sport' width={1000} height={641} />
                 </div>
             </section>
         </>
