@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $blackBackground;
+
+  h1 {
+    font-size: 1.5 * $titleFontSize;
+    line-height: 5rem;
+    padding: 1rem;
+    color: $supplementaryFontColor;
+    background-color: $blackBackground;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $blackBackground;
+
+    h2 {
+      width: 100%;
+      font-size: $subtitleFontSize;
+      line-height: 5rem;
+      padding: 1rem 2rem;
+      color: $supplementaryFontColor;
+      background-color: $blackBackground;
+      text-transform: uppercase;
+      text-align: center;
+      letter-spacing: 0.3rem;
+    }
+  }
+}

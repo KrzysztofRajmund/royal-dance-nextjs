@@ -38,8 +38,8 @@ const ModalNav = ({ ...props }: Props) => {
             </Link>
           </div>
         </div>
-        <Link href="/cennik">
-          <a onClick={props.closeNavModal}> Cennik</a>
+        <Link href="/info">
+          <a onClick={props.closeNavModal}> Info</a>
         </Link>
         <Link href="/galeria">
           <a onClick={props.closeNavModal}>Galeria</a>
