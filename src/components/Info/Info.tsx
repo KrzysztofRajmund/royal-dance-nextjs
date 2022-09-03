@@ -21,10 +21,6 @@ const Info: React.FC = () => {
                     <h2>Taniec rekreacyjny</h2>
                     <Image src='/static/assets/cennik-rekreacja.png' alt='cennik-rekreacja' width={1000} height={820} />
                 </div>
-                <div className="card">
-                    <h2>Taniec sportowy</h2>
-                    <Image src='/static/assets/cennik-sport.png' alt='cennik-sport' width={1000} height={641} />
-                </div>
             </section>
         </>
     );
