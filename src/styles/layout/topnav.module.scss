@@ -59,9 +59,9 @@
     position: relative;
     display: inline-block;
     .active {
-        display: flex;
+      display: flex;
     }
-    .not-active{
+    .not-active {
       display: none;
     }
   }
@@ -93,11 +93,12 @@
   flex: 15%;
   text-align: right;
   margin-right: 2rem;
-  .instagram, .facebook{
+  .instagram,
+  .facebook {
     margin-left: 2rem;
   }
   img {
-    opacity: 0.3;
+    opacity: 0.5;
     transition: 0.4s ease-out;
     &:hover {
       opacity: 1;
@@ -206,7 +207,7 @@
     justify-content: center;
     width: 100%;
     padding: 0 24px;
-    a{
+    a {
       text-decoration: none;
     }
     > * {
@@ -267,7 +268,8 @@
     margin: 0;
     display: flex;
     align-items: center;
-    .instagram, .facebook {
+    .instagram,
+    .facebook {
       margin: 0.8rem;
     }
     a {
@@ -276,7 +278,7 @@
         margin: 3rem 1rem;
         width: 3.5rem;
         height: auto;
-        opacity: 0.3;
+        opacity: 0.5;
         transition: 0.4s ease-out;
         &:hover {
           opacity: 1;
@@ -384,11 +386,10 @@
 //media
 @media screen and (max-width: 1130px) {
   .topnav-container {
-    font-size: calc($subtitleFontSize * 3/4);
+    font-size: calc($subtitleFontSize * 3 / 4);
   }
 
-  
-  .topnav-menu {    
+  .topnav-menu {
     .dropdown-menu {
       padding-bottom: 1rem;
       a {
@@ -406,7 +407,7 @@
 
 @media screen and (max-width: 990px) {
   .topnav-container {
-    font-size: calc($subtitleFontSize * 1/2);
+    font-size: calc($subtitleFontSize * 1 / 2);
     padding-left: 1rem;
     padding-right: 1rem;
   }
