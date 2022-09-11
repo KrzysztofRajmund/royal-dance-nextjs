@@ -102,7 +102,7 @@ const Gallery = () => {
         <section className="gallery">
           <h1>Nasze studio</h1>
           <div className="gallery-images">
-            {imagesData.images.map((image) => {
+            {imagesData.images.slice(0, 36).map((image) => {
               return (
                 <div
                   key={image.id}

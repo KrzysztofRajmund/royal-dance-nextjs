@@ -57,7 +57,7 @@ const ModalNav = ({ ...props }: Props) => {
           className="facebook"
         >
           <Image
-            src="/static/assets/facebook.png"
+            src="/static/assets/facebook-orginal.png"
             alt="facebook"
             width={30}
             height={30}
@@ -71,7 +71,7 @@ const ModalNav = ({ ...props }: Props) => {
           className="instagram"
         >
           <Image
-            src="/static/assets/instagram.png"
+            src="/static/assets/instagram-orginal.png"
             alt="instagram"
             width={30}
             height={30}
