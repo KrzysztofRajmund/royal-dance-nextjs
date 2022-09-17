@@ -5,8 +5,9 @@ import GalleryHome from "./Gallery/GalleryHome";
 import HeaderHome from "./Offers/HeaderHome";
 import { useWindowWidth } from "./utilities/hooks/useWindowWidth";
 import Meta from "./utilities/Meta";
+import TopJumbotronSlider from "./TopJumbotron/TopJumbotronSlider";
 
-const RoyalDance: React.FC = () => {
+const RoyalDance = () => {
   const windowWidth = useWindowWidth();
   return (
     <>
@@ -21,7 +22,8 @@ const RoyalDance: React.FC = () => {
       />
       {windowWidth && (
         <>
-          <TopJumbotron windowWidth={windowWidth} />
+          {/* <TopJumbotron windowWidth={windowWidth} /> */}
+          <TopJumbotronSlider windowWidth={windowWidth} />
           <HeaderHome
             image="/static/assets/sportdance.jpg"
             windowWidth={windowWidth}
