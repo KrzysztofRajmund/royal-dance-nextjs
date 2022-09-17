@@ -25,11 +25,8 @@ const GalleryHome = () => {
 
   //change image function
   const anotherImage = (sign: number) => {
-    let filterImage: any = imagesData.images.filter(
-      (x) => x.id === modalImage.id + sign
-    );
-    let newImageIndex: number = imagesData.images.indexOf(filterImage[0]);
-    setModalImage(imagesData.images[newImageIndex]);
+    const newImageIndex = imagesData.images.indexOf(modalImage)
+    setModalImage(imagesData.images[newImageIndex + sign]);
   };
 
   //open modal

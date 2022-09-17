@@ -29,11 +29,8 @@ const Gallery = () => {
 
   //change image function
   const anotherImage = (sign: number) => {
-    let filterImage: any = imagesData.images.filter(
-      (x) => x.id === modalImage.id + sign
-    );
-    let newImageIndex: number = imagesData.images.indexOf(filterImage[0]);
-    setModalImage(imagesData.images[newImageIndex]);
+    const newImageIndex = imagesData.images.indexOf(modalImage)
+    setModalImage(imagesData.images[newImageIndex + sign]);
   };
 
   //open modal
@@ -102,7 +99,7 @@ const Gallery = () => {
         <section className="gallery">
           <h1>Nasze studio</h1>
           <div className="gallery-images">
-            {imagesData.images.slice(0, 36).map((image) => {
+            {imagesData.images.map((image) => {
               return (
                 <div
                   key={image.id}
@@ -114,8 +111,8 @@ const Gallery = () => {
                     blurDataURL={`/static/gallery/${image.url}`}
                     src={`/static/gallery/${image.url}`}
                     alt={`image-${image.id}`}
-                    width={1000}
-                    height={666}
+                    layout="fill"
+                    objectFit="cover"
                   />
                 </div>
               );
