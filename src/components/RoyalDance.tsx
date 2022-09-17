@@ -1,8 +1,5 @@
-import TopJumbotron from "./TopJumbotron/TopJumbotron";
 import Cards from "./Cards/Cards";
-// import About from './About/About';
-import GalleryHome from "./Gallery/GalleryHome";
-import HeaderHome from "./Offers/HeaderHome";
+import About from './About/About';
 import { useWindowWidth } from "./utilities/hooks/useWindowWidth";
 import Meta from "./utilities/Meta";
 import TopJumbotronSlider from "./TopJumbotron/TopJumbotronSlider";
@@ -22,20 +19,8 @@ const RoyalDance = () => {
       />
       {windowWidth && (
         <>
-          {/* <TopJumbotron windowWidth={windowWidth} /> */}
           <TopJumbotronSlider windowWidth={windowWidth} />
-          <HeaderHome
-            image="/static/assets/sportdance.jpg"
-            windowWidth={windowWidth}
-            title={windowWidth < 380 ? "Taniec" : "Dołącz do Nas!"}
-            desc={
-              windowWidth < 445
-                ? "Rekreacyjny i Sportowy"
-                : "Taniec rekreacyjny i sportowy"
-            }
-          />
-          <GalleryHome />
-          {/* <About /> */}
+          <About />
           <Cards />
         </>
       )}
