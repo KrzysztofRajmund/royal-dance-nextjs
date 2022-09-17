@@ -1,33 +1,112 @@
-import Image from "next/image";
-import Meta from "../utilities/Meta";
+import Image from 'next/image';
+import Meta from '../utilities/Meta';
 
 const About = () => {
+  const instructors = [
+    {
+      id: 1,
+      name: 'Magdalena Geldner',
+      desc: 'Założycielka Szkoły Tańca Royal Dance, Trener LA',
+      url: 'magdalena-geldner.jpg',
+    },
+    {
+      id: 2,
+      name: 'Oskar Dziedzic',
+      desc: 'Trener LA',
+      url: 'oskar-dziedzic.jpg',
+    },
+    {
+      id: 3,
+      name: 'Michał Bartkiewicz',
+      desc: 'Trener LA',
+      url: 'michal-bartkiewicz.jpg',
+    },
+    {
+      id: 4,
+      name: 'Tomasz Konury',
+      desc: 'Trener ST',
+      url: null,
+    },
+    {
+      id: 5,
+      name: 'Sara Gromadzka',
+      desc: 'Instruktorka',
+      url: 'sara-gromadzka.jpg',
+    },
+    {
+      id: 6,
+      name: 'Igor Kaczmarek',
+      desc: 'Instruktor',
+      url: 'igor-kaczmarek.jpg',
+    },
+    {
+      id: 7,
+      name: 'Kamila & Andrej Mosejcuk',
+      desc: 'Szkoleniowcy LA',
+      url: 'kamila-andrej.jpg',
+    },
+    {
+      id: 8,
+      name: 'Aneta Pawlak',
+      desc: 'Szkoleniowiec ST',
+      url: null,
+    },
+    {
+      id: 9,
+      name: 'Olga Kuzmina-Pietkiewicz',
+      desc: 'Przygotowanie baletowe',
+      url: 'olga-kuzmina-pietkiewicz.jpg',
+    },
+  ];
   return (
     <>
       <Meta
-        webUrl="https://www.royaldanceszczecin.pl/onaszymstudio"
-        keywords="Szkoła Tańca Szczecin, Latino Solo Szczecin, Zajęcia dla Pań Szczecin, Taniec Szczecin, Lekcje dla nowożeńców Szczecin, Pierwszy Taniec Szczecin"
-        type="text"
-        title="O naszym studio"
-        description="Szkoła Tańca Szczecin, Latino Solo Szczecin, Zajęcia dla Pań Szczecin, Taniec Szczecin, Lekcje dla nowożeńców Szczecin, Pierwszy Taniec Szczecin"
-        imageUrl="https://www.royaldanceszczecin.pl/_ipx/w_1080,q_75/%2Fstatic%2Fgallery%2Fimg6.jpg?url=%2Fstatic%2Fgallery%2Fimg6.jpg&w=1080&q=75"
-        imageAlt="Szkoła Tańca Szczecin"
+        webUrl='https://www.royaldanceszczecin.pl/onaszymstudio'
+        keywords='Szkoła Tańca Szczecin, Latino Solo Szczecin, Zajęcia dla Pań Szczecin, Taniec Szczecin, Lekcje dla nowożeńców Szczecin, Pierwszy Taniec Szczecin'
+        type='text'
+        title='O naszym studio'
+        description='Szkoła Tańca Szczecin, Latino Solo Szczecin, Zajęcia dla Pań Szczecin, Taniec Szczecin, Lekcje dla nowożeńców Szczecin, Pierwszy Taniec Szczecin'
+        imageUrl='https://www.royaldanceszczecin.pl/_ipx/w_1080,q_75/%2Fstatic%2Fgallery%2Fimg6.jpg?url=%2Fstatic%2Fgallery%2Fimg6.jpg&w=1080&q=75'
+        imageAlt='Szkoła Tańca Szczecin'
       />
-      <section className="cards-container about">
+      <section className='instructors'>
+        <div className='instructors-cards'>
+          {instructors.map((instructor) => {
+            return (
+              <div className='instructor-card' key={instructor.id}>
+                <div className='instructor-image'>
+                  <Image
+                    placeholder='blur'
+                    blurDataURL={`/static/instructors/${instructor.url}`}
+                    src={`/static/instructors/${instructor.url ?? 'logo.png'}`}
+                    alt={`image-${instructor.id}`}
+                    layout='fill'
+                    objectFit={instructor.url ? 'cover' : 'contain'}
+                  />
+                </div>
+                <div className='instructor-name'>{instructor.name}</div>
+                <div className='instructor-description'>{instructor.desc}</div>
+              </div>
+            );
+          })}
+
+        </div>
+      </section>
+      <section className='cards-container about'>
         <article>
-          <div className="cards-content">
+          <div className='cards-content'>
             <h1>
               <Image
-                src="/static/assets/logo2.png"
-                alt="logo"
+                src='/static/assets/logo2.png'
+                alt='logo'
                 width={120}
                 height={120}
               />
             </h1>
             <h1>Studio Tańca</h1>
           </div>
-          <div className="cards-subcontent">
-            <p className="cards-subcontent-title">
+          <div className='cards-subcontent'>
+            <p className='cards-subcontent-title'>
               Szkoła Tańca Royal Dance to miejsce założone przez Magdalenę
               Geldner tancerkę międzynarodowej klasy tanecznej S, która na swoim
               tanecznym koncie ma liczne osiągnięcia na arenie polskiej oraz
@@ -38,7 +117,7 @@ const About = () => {
             </p>
             <br />
             <p>
-              {" "}
+              {' '}
               <u>Stawiamy na jakoś, profesjonalizm i dobrą atmosferę.</u>
             </p>
             <h2>Prowadzimy zajęcia dla:</h2>
