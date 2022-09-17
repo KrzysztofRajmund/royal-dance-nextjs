@@ -1,0 +1,141 @@
+.sliders-container {
+  position: relative;
+  width: 100vw;
+  margin-bottom: 50px;
+  .slider {
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+  }
+
+  .slider-content {
+    font-family: $familyFontsSecondary;
+    color: $whiteFontColor;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 40%;
+    left: 0;
+    right: 0;
+    line-height: 6rem;
+    text-align: center;
+    background-color: transparent;
+    padding: 6rem 1rem 9rem 1rem;
+
+    h1 {
+      font-weight: 600;
+      font-size: 8rem;
+      letter-spacing: 0.5rem;
+      margin: 2rem 0;
+    }
+    //anime
+    .slider-subtitle,
+    .slider-info {
+      text-align: center;
+      color: #f5f5f5;
+      font-weight: 900;
+      font-size: 1.55rem;
+      line-height: 2.5rem;
+      margin-top: 1rem;
+      letter-spacing: 1.4rem;
+      text-transform: uppercase;
+      padding-left: 1rem;
+    }
+
+    .slider-info {
+      font-size: 1.8rem;
+      padding: 12px;
+      animation: showBackground 2s linear 4s forwards;
+    }
+
+    .slider-subtitle .words {
+      display: inline-block;
+    }
+
+    .slider-title .words {
+      display: inline-block;
+    }
+  }
+  //react-slick native classes
+  .slick-dots {
+    z-index: 5;
+
+    li {
+      button {
+        &::before {
+          font-size: 12px;
+          border-radius: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 615px) {
+  .sliders-container {
+    .slider-content {
+      top: 35%;
+      h1 {
+        font-size: 4rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
+      }
+      h5 {
+        font-size: 1rem;
+        padding-right: 2rem;
+        padding-left: 2.9rem;
+      }
+      .slider-info {
+        font-size: 1.4rem;
+        padding: 6px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .sliders-container {
+    .slider-content {
+      h1 {
+        font-size: 3rem;
+        padding-right: 0rem;
+        padding-left: 0rem;
+      }
+      h5 {
+        font-size: 0.8rem;
+        padding-right: 0rem;
+        padding-left: 0rem;
+        margin-bottom: 0;
+      }
+      .slider-info {
+        text-align: center;
+        font-size: 1rem;
+        letter-spacing: 1rem;
+      }
+    }
+  }
+}
+
+// @media screen and (max-width: 365px) {
+//   .topjumbotron-container {
+//     article {
+//       h1 {
+//         font-size: 3rem;
+//       }
+//       h5 {
+//         font-size: 1.2rem;
+//       }
+//     }
+//   }
+// }
+
+//keyframes
+@keyframes showBackground {
+  0% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: rgba(0, 0, 0, 0.85);
+  }
+}

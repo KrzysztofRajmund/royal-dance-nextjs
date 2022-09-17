@@ -30,6 +30,7 @@
 
 //modal
 .modal-container {
+  @include prevent-tab-highlights;
   position: relative;
   display: flex;
   justify-content: center;
