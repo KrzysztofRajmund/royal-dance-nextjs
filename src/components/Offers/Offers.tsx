@@ -43,7 +43,7 @@ const Offers: React.FC<IOffer> = ({ id, image, title, subtitle, desc }) => {
     <section className={cx("cards-container offers", { 'offer-subpage': offer?.image && offer?.subtitle })}>
       <article id={id || offer?.id}>
         <div className="cards-content" style={sectionStyle}>
-          <h1>
+          <h1 className="cards-content-logo">
             <Image
               src="/static/assets/logo2.png"
               alt="logo"
