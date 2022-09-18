@@ -1,22 +1,23 @@
 import React from "react";
-import Offers from "./Offers";
-import OffersTwo from "./OffersTwo";
+// import Offers from "./Offers";
+// import OffersTwo from "./OffersTwo";
 import Header from "./Header";
 import offerData from "../../offerData.json";
 import { useWindowWidth } from "../utilities/hooks/useWindowWidth";
 import Meta from "../utilities/Meta";
+import { OffersList } from "./OffersList";
 
 const FamilyDance = () => {
   const windowWidth = useWindowWidth();
-  const getIDHandler = (word: string | undefined): any => {
-    let newWord: any;
-    let newWordSec: any;
-    if (word) {
-      newWord = word.split(" ")[0];
-      newWordSec = word.split(" ")[1];
-      return `${newWord}${newWordSec ? newWordSec : ""}`;
-    }
-  };
+  // const getIDHandler = (word: string | undefined): any => {
+  //   let newWord: any;
+  //   let newWordSec: any;
+  //   if (word) {
+  //     newWord = word.split(" ")[0];
+  //     newWordSec = word.split(" ")[1];
+  //     return `${newWord}${newWordSec ? newWordSec : ""}`;
+  //   }
+  // };
 
   return (
     <>
@@ -30,8 +31,8 @@ const FamilyDance = () => {
         imageAlt="Szkoła Tańca Szczecin"
       />
       <Header
-        menuNav={true}
-        image="/static/assets/rd-gif.gif"
+        menuNav={false}
+        image="/static/assets/bg-black.jpg"
         title="Taniec rekreacyjny"
         desc="w każdej grupie wiekowej"
         menu={{
@@ -42,9 +43,10 @@ const FamilyDance = () => {
         }}
         windowWidth={windowWidth}
       />
-      {offerData.offer.map((item) => {
+      <OffersList offerData={offerData.offer} />
+      {/* {offerData.offer.map((item) => {
         if (
-          item.category === "taniecrekreacyjny" &&
+          item.category === "taniec-rekreacyjny" &&
           windowWidth &&
           windowWidth < 825
         ) {
@@ -59,7 +61,7 @@ const FamilyDance = () => {
           );
         }
         if (
-          item.category === "taniecrekreacyjny" &&
+          item.category === "taniec-rekreacyjny" &&
           offerData.offer.indexOf(item) % 2 === 0 &&
           windowWidth &&
           windowWidth >= 825
@@ -75,7 +77,7 @@ const FamilyDance = () => {
           );
         }
         if (
-          item.category === "taniecrekreacyjny" &&
+          item.category === "taniec-rekreacyjny" &&
           offerData.offer.indexOf(item) % 2 === 1 &&
           windowWidth &&
           windowWidth >= 825
@@ -92,7 +94,7 @@ const FamilyDance = () => {
         }
 
         return null;
-      })}
+      })} */}
     </>
   );
 };

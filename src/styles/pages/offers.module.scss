@@ -28,6 +28,35 @@
       }
     }
   }
+  //new offer => subpage
+  &.offer-subpage {
+    article {
+      flex-direction: column;
+      .cards-content,
+      .cards-subcontent,
+      .cards-slider {
+        flex: 100%;
+        min-width: 100%;
+        text-align: center;
+      }
+      .cards-content {
+        text-align: left;
+        min-height: 35vh;
+        .cards-content-logo {
+          height: 75px;
+        }
+
+        .offers-title {
+          width: fit-content;
+          font-size: 1.75rem;
+        }
+      }
+    }
+  }
+}
+
+.cards-container.offer-subpage {
+  height: 100%;
 }
 
 //menu

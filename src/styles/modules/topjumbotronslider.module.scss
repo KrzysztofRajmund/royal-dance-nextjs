@@ -1,7 +1,9 @@
 .sliders-container {
   position: relative;
   width: 100vw;
+  height: 80vh;
   margin-bottom: 50px;
+  background-color: $whiteBackground;
   .slider {
     position: relative;
     width: 100vw;

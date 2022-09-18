@@ -20,12 +20,12 @@ const Cards = () => {
     <section className="cards-container">
       <article>
         <div className="cards-content">
-          <h1>
+          <h1 className="cards-content-logo">
             <Image
               src="/static/assets/logo2.png"
               alt="logo"
-              width={120}
-              height={120}
+              objectFit="contain"
+              layout="fill"
             />
           </h1>
         </div>
