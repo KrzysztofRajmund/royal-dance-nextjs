@@ -61,10 +61,10 @@ const About = () => {
   return (
     <>
       <Meta
-        webUrl='https://www.royaldanceszczecin.pl/onaszymstudio'
+        webUrl='https://www.royaldanceszczecin.pl/o-szkole-tanca'
         keywords='Szkoła Tańca Szczecin, Latino Solo Szczecin, Zajęcia dla Pań Szczecin, Taniec Szczecin, Lekcje dla nowożeńców Szczecin, Pierwszy Taniec Szczecin'
         type='text'
-        title='O naszym studio'
+        title='O naszej szkole tańca'
         description='Szkoła Tańca Szczecin, Latino Solo Szczecin, Zajęcia dla Pań Szczecin, Taniec Szczecin, Lekcje dla nowożeńców Szczecin, Pierwszy Taniec Szczecin'
         imageUrl='https://www.royaldanceszczecin.pl/_ipx/w_1080,q_75/%2Fstatic%2Fgallery%2Fimg6.jpg?url=%2Fstatic%2Fgallery%2Fimg6.jpg&w=1080&q=75'
         imageAlt='Szkoła Tańca Szczecin'
@@ -103,7 +103,7 @@ const About = () => {
                 height={120}
               />
             </h1>
-            <h1>Studio Tańca</h1>
+            <h1>Szkoła Tańca</h1>
           </div>
           <div className='cards-subcontent'>
             <p className='cards-subcontent-title'>

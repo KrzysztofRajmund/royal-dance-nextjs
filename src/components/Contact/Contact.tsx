@@ -26,7 +26,7 @@ const Contact: React.FC = () => {
         title="Royal Dance"
         description=" Zajęcia dla Pań Szczecin,  Latino Solo Szczecin, Taniec Szczecin, Lekcje dla nowożeńców Szczecin, Pierwszy Taniec Szczecin"
         imageUrl="https://www.royaldanceszczecin.pl/_ipx/w_1080,q_75/%2Fstatic%2Fgallery%2Fimg7.jpg?url=%2Fstatic%2Fgallery%2Fimg7.jpg&w=1080&q=75"
-        imageAlt="Royal Dance Studio"
+        imageAlt="Royal Dance Szkoła Tańca"
       />
       <section className="cards-container">
         <article>

@@ -21,7 +21,7 @@ const ModalNav = ({ ...props }: Props) => {
         </Link>
       </section>
       <section className="modal-menu">
-        <Link href="/onaszymstudio">
+        <Link href="/o-szkole-tanca">
           <a onClick={props.closeNavModal}> O Nas</a>
         </Link>
         <div className="dropdown">
