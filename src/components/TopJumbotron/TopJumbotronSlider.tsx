@@ -60,7 +60,7 @@ const TopJumbotronSlider = ({ windowWidth }: Props) => {
         {images.map((image) => {
           return <div className="slider" key={image}>
             <Image
-              placeholder="blur"
+              priority
               blurDataURL={image}
               src={image}
               alt={image}

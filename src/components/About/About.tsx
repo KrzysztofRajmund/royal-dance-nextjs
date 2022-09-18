@@ -25,7 +25,7 @@ const About = () => {
       id: 4,
       name: 'Tomasz Konury',
       desc: 'Trener ST',
-      url: null,
+      url: 'tomasz-konury.jpg',
     },
     {
       id: 5,

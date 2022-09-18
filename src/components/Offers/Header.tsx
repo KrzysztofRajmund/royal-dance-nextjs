@@ -10,7 +10,6 @@ const fontPoppin = "'Poppins', sans-serif";
 const useStyles = makeStyles<Theme, Props>((theme) => ({
   root: {
     position: "relative",
-    height: "60vh",
     width: "100vw",
     margin: "0",
     // [theme.breakpoints.down(450)]: {
@@ -49,6 +48,8 @@ const Header: React.FC<Props> = ({ ...props }) => {
   const classes = useStyles(props);
   const [loading, setLoading] = useState(false);
   const windowWidth = useWindowWidth();
+  const isOfferList = props.title === "Taniec rekreacyjny" || props.title === "Taniec sportowy"
+
   useEffect(() => {
     setLoading(true);
   }, []);
@@ -91,7 +92,7 @@ const Header: React.FC<Props> = ({ ...props }) => {
     });
   }
   return (
-    <div className={classes.root}>
+    <div className={classes.root} style={{ height: isOfferList ? "20vh" : '60vh' }}>
       <Paper
         square
         variant="outlined"
@@ -99,7 +100,7 @@ const Header: React.FC<Props> = ({ ...props }) => {
         style={{
           backgroundImage: `url(${props.image})`,
           width: "100vw",
-          height: "60vh",
+          height: isOfferList ? "20vh" : '60vh',
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
@@ -111,12 +112,12 @@ const Header: React.FC<Props> = ({ ...props }) => {
       >
         <div className="header-container">
           <article>
-            <div className="entrance">
+            <div className="entrance" style={{ marginBottom: isOfferList ? "75px" : '0px', }}>
               <h1 className="entrance-title"> {props.title}</h1>
               <h5 className="entrance-subtitle">
                 {props.desc.length >= 20 &&
-                props.windowWidth &&
-                props.windowWidth < 445
+                  props.windowWidth &&
+                  props.windowWidth < 445
                   ? ""
                   : props.desc}
               </h5>

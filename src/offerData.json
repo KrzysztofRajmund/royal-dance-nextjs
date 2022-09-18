@@ -2,16 +2,24 @@
     "offer": [
         {
             "id": 1,
-            "url": "img101.jpg",
-            "category": "taniecrekreacyjny",
+            "url": "latino.jpg",
+            "category": "taniec-rekreacyjny",
             "title": "Dla Kobiet",
             "subtitle": "Latino Solo dla Pań",
             "desc": "Zajęcia Latino Ladies są skierowane do Pań w każdym wieku, na których tańczymy SOLO, więc partner tym razem nie będzie nam potrzebny. Tutaj poznasz świat tańców latynoamerykańskich, gdzie z głośników nieustannie będą wybrzmiewać najmodniejsze rytmy kubańskiej cha-chy, brazylijskiej samby jak również salsy i bachaty. Latino Ladies odbywa się dwa razy w tygodniu i trwa 60 minut. Każde zajęcia rozpoczynamy od dynamicznej rozgrzewki, która już od pierwszych minut wprowadza nas w taneczny wir. Następnie mamy punkt kulminacyjny zajęć, gdzie poznawany taniec „rozbieramy” na taneczne czynniki pierwsze. Pomaga nam to zrozumieć każdy ruch ręki, nogi i naszego całego ciała. W tej części poznajemy również charakter danego tańca i jego krótką historię. Zajęcia kończymy spokojnym akcentem, gdzie przy przygaszonym świetle i cichym muzycznym tle, rozciągamy poszczególne części naszego ciała. Jest to moment wyciszenia i uspokojenia naszego wewnętrznego JA. Jeśli od dawna myślisz żeby zrobić coś dla siebie, zbudować swoją pewność siebie, kobiecość i złapać trochę endorfin to są to zajęcia na pewno dla Ciebie. Pierwsze zajęcia są niezobowiązujące, także nie zastanawiaj się, znajdź w szafie wygodne obuwie i ciuchy i przyjdź z nami potańczyć :)"
         },
         {
+            "id": 1.1,
+            "url": "royal-fit.jpg",
+            "category": "taniec-rekreacyjny",
+            "title": "Dla Kobiet",
+            "subtitle": "Royal Fit",
+            "desc": "Zajęcia ROyal Fit Ladies są skierowane do Pań w każdym wieku, na których tańczymy SOLO, więc partner tym razem nie będzie nam potrzebny. Tutaj poznasz świat tańców latynoamerykańskich, gdzie z głośników nieustannie będą wybrzmiewać najmodniejsze rytmy kubańskiej cha-chy, brazylijskiej samby jak również salsy i bachaty. Latino Ladies odbywa się dwa razy w tygodniu i trwa 60 minut. Każde zajęcia rozpoczynamy od dynamicznej rozgrzewki, która już od pierwszych minut wprowadza nas w taneczny wir. Następnie mamy punkt kulminacyjny zajęć, gdzie poznawany taniec „rozbieramy” na taneczne czynniki pierwsze. Pomaga nam to zrozumieć każdy ruch ręki, nogi i naszego całego ciała. W tej części poznajemy również charakter danego tańca i jego krótką historię. Zajęcia kończymy spokojnym akcentem, gdzie przy przygaszonym świetle i cichym muzycznym tle, rozciągamy poszczególne części naszego ciała. Jest to moment wyciszenia i uspokojenia naszego wewnętrznego JA. Jeśli od dawna myślisz żeby zrobić coś dla siebie, zbudować swoją pewność siebie, kobiecość i złapać trochę endorfin to są to zajęcia na pewno dla Ciebie. Pierwsze zajęcia są niezobowiązujące, także nie zastanawiaj się, znajdź w szafie wygodne obuwie i ciuchy i przyjdź z nami potańczyć :)"
+        },
+        {
             "id": 2,
-            "url": "img102.jpg",
-            "category": "taniecrekreacyjny",
+            "url": "dla-doroslych.jpg",
+            "category": "taniec-rekreacyjny",
             "title": "Dla Dorosłych",
             "subtitle": "Kurs Tańca dla Dorosłych",
             "desc": "Monotonne wieczory? Nie u Nas! W naszej ofercie mamy Kurs Tańca dla Dorosłych, gdzie pod okiem profesjonalnego instruktora rozpoczniemy wspólnie taneczną przygodę. Zajęcia dla par odbywają się raz w tygodniu i trwają 60 minut. Jest to idealny czas na spędzenie wspólnie czasu w sposób aktywny oraz ciekawy. Na zajęciach poznamy kroki spokojnego walca angielskiego, dynamicznego jive’a, ale również miłosnej rumby lub tajemniczego slowfoxa. Bez stresu! Zaczynamy od podstaw, dążąc do urozmaiconych choreografii, które będą towarzyszyć Wam na różnych imprezach okolicznościowych lub turniejach tańca? Na nasze zajęcia nie musicie być specjalnie przygotowani. Weźcie ze sobą obuwie zmienne z miękką podeszwą, wygodny strój i przede wszystkim dobry humor."
@@ -19,7 +27,7 @@
         {
             "id": 3,
             "url": "img29.jpg",
-            "category": "taniecrekreacyjny",
+            "category": "taniec-rekreacyjny",
             "title": "Dla Dzieci",
             "subtitle": "Zajęcia dla dzieci",
             "desc": "Zajęcia RoyalKids przeznaczone są dla grup wiekowych od 3-6 oraz od 6-9 i odbywają się dwa razy w tygodniu. Na tych zajęciach muzyka gra nieprzerwanie, a zabawa jest nierozłączną częścią tanecznych zmagać. Nasze motto „przez zabawę do tańca” w tej grupie sprawdza się w 100%. Dzieci na zajęciach poznają świat tańca współczesnego oraz towarzyskiego. Rytm  spokojnego walca angielskiego czy rytmicznej cha chy na pewno zaciekawi Twoje dziecko, a przy okazji wzbogaci Je o doskonały słuch, a poznane kroki o wspaniałą koordynację ruchową. Każde zajęcia rozpoczynają się rozgrzewką, podczas której wzmacniamy ciała Waszych pociech, zwiększamy zakresy pracy ich mięśni oraz pokazujemy jak prawidłowo się rozciągać. Następnie uczymy się choreografii, które są dobrane do poziomu grupy. Dzieci przez systematyczność i sumienność utrwalają poznane kroki, udoskonalają ich wykonanie, aby jak najlepiej zaprezentować się na Mikołajkowym oraz Wakacyjnym Turnieju Tańca organizowanym przez Naszą Szkołę. Nauka układów tanecznych jest przeplatana, tym co dzieci lubią najbardziej- zabawami. Mają one na celu poprawę spostrzegawczości i szybkości na reagowanie na polecenia. Dodatkowym atutem jest późniejsza możliwość kontynuacji nauki w Grupach Sportowych."
@@ -27,7 +35,7 @@
         {
             "id": 4,
             "url": "img99.jpg",
-            "category": "taniecrekreacyjny",
+            "category": "taniec-rekreacyjny",
             "title": "Pierwszy Taniec",
             "subtitle": "Taniec dla Par Młodych",
             "desc": "Pierwszy Taniec jest wyjątkowym i ważnym wydarzeniem, które na długo pozostaje w pamięci Młodej Pary oraz gości weselnych. To świetna okazja przedstawienia gościom nowo upieczonego małżeństwa, a w szczególności Panny Młodej w całej okazałości. Wykwalifikowana kadra instruktorów nauczy Was tańczyć od podstaw, pokaże Wam jak swobodnie poruszać się na parkiecie, a przyszłym Panom Młodym jak zadbać w tańcu o swoją wybrankę, bo pamiętajcie, że Pierwszy Taniec nie musi być stresujący. Ułożymy dla Was spersonalizowany układ taneczny, który pokaże wszystkie Wasze atuty. A to wszystko do wybranej przez Was piosenki. Sprawimy byście poczuli się pewni siebie i na Waszych twarz zawitał uśmiech, a na twarzach gości łzy wzruszenia. Czas przygotowania dobierany jest indywidualnie do Waszych potrzeb, zależny on jest od długości tańca, skompilowania układu i Waszego samopoczucia, lecz z doświadczenia polecamy rozpocząć naukę nie później niż 3 miesiące przed Weselem. Terminy spotkań ustalamy wspólnie, w najbardziej dogodnych terminach dla Państwa."
@@ -35,7 +43,7 @@
         {
             "id": 5,
             "url": "img23.jpg",
-            "category": "taniecsportowy",
+            "category": "taniec-sportowy",
             "title": "Grupa Sportowa",
             "subtitle": "Grupa Sportowa",
             "desc": "Grupa Sport dedykowana jest dla osób, które startują na zawodach okręgowych, ogólnopolskich jak i międzynarodowych. Doświadczona kadra i zaangażowani tancerze to przepis na sukces, który w Naszej Szkole przynosi zamierzone efekty. Treningi z tańców standardowych i latynoamerykańskich, zajęcia ogólnorozwojowe takie jak crossfit i balet to w tej grupie codzienność. Bo mottem tej grupy jest „Mierzymy wysoko!”"
@@ -43,7 +51,7 @@
         {
             "id": 6,
             "url": "img11.jpg",
-            "category": "taniecsportowy",
+            "category": "taniec-sportowy",
             "title": "Pro-Am",
             "subtitle": "Taniec w systemie Pro-Am",
             "desc": "Zawsze chciałaś / chciałeś tańczyć ale nigdy nie było na to czasu? Marzysz o tym aby wziąć udział w profesjonalnym turnieju tanecznym?  Nie masz partnera tanecznego ale bardzo chcesz nauczyć się tańczyć? ProAm jest to system nauki tańca polegający na indywidualnej pracy kursanta ze swoim instruktorem. Mówiąc krótko nasz instruktor staje się Twoim partnerem tanecznym."
@@ -51,7 +59,7 @@
         {
             "id": 7,
             "url": "img98.jpg",
-            "category": "taniecsportowy",
+            "category": "taniec-sportowy",
             "title": "Pokazy taneczne",
             "subtitle": "Profesjonalistyczne pokazy taneczne",
             "desc": "Zajmujemy się realizacją oprawy tanecznej i choreograficznej wydarzeń takich jak: koncerty, programy telewizyjne, musicale, bale i wiele innych."
