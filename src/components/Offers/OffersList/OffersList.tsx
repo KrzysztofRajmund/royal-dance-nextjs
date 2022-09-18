@@ -24,7 +24,7 @@ export const OffersList = ({ offerData }: IOffersList) => {
         <div className={styles.container}>
             {/* <h1>{pathname.includes("taniec-rekreacyjny") ? "Taniec Rekreacyjny" : "Taniec Sportowy"}</h1> */}
             <div className={styles.cards}>
-                {offerData.slice(0, 3).filter(offer => pathname.includes(offer.category)).map((offer => <OfferCard key={offer.id} id={offer.id} category={offer.category} imageUrl={offer.url} subtitle={offer.subtitle} />))}
+                {offerData.filter(offer => pathname.includes(offer.category)).map((offer => <OfferCard key={offer.id} id={offer.id} category={offer.category} imageUrl={offer.url} subtitle={offer.subtitle} />))}
             </div>
         </div>
     )

@@ -1,22 +1,23 @@
 import React from "react";
-import Offers from "./Offers";
-import OffersTwo from "./OffersTwo";
+// import Offers from "./Offers";
+// import OffersTwo from "./OffersTwo";
 import Header from "./Header";
 import offerData from "../../offerData.json";
 import { useWindowWidth } from "../utilities/hooks/useWindowWidth";
 import Meta from "../utilities/Meta";
+import { OffersList } from "./OffersList";
 
 const SportDance: React.FC = () => {
   const windowWidth = useWindowWidth();
-  const getIDHandler = (word: string | undefined): any => {
-    let newWord: any;
-    let newWordSec: any;
-    if (word) {
-      newWord = word.split(" ")[0];
-      newWordSec = word.split(" ")[1];
-      return `${newWord}${newWordSec ? newWordSec : ""}`;
-    }
-  };
+  // const getIDHandler = (word: string | undefined): any => {
+  //   let newWord: any;
+  //   let newWordSec: any;
+  //   if (word) {
+  //     newWord = word.split(" ")[0];
+  //     newWordSec = word.split(" ")[1];
+  //     return `${newWord}${newWordSec ? newWordSec : ""}`;
+  //   }
+  // };
 
   return (
     <>
@@ -30,8 +31,8 @@ const SportDance: React.FC = () => {
         imageAlt="Szkoła Tańca Szczecin"
       />
       <Header
-        menuNav={true}
-        image="static/assets/sportdance.jpg"
+        menuNav={false}
+        image="/static/assets/bg-black.jpg"
         title="Taniec sportowy"
         desc="solo i w parze"
         menu={{
@@ -41,7 +42,8 @@ const SportDance: React.FC = () => {
         }}
         windowWidth={windowWidth}
       />
-      {offerData.offer.map((item) => {
+      <OffersList offerData={offerData.offer} />
+      {/* {offerData.offer.map((item) => {
         if (
           item.category === "taniecsportowy" &&
           windowWidth &&
@@ -90,7 +92,7 @@ const SportDance: React.FC = () => {
           );
         }
         return null;
-      })}
+      })} */}
     </>
   );
 };

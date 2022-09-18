@@ -1,6 +1,6 @@
 import React from "react";
-import Offers from "./Offers";
-import OffersTwo from "./OffersTwo";
+// import Offers from "./Offers";
+// import OffersTwo from "./OffersTwo";
 import Header from "./Header";
 import offerData from "../../offerData.json";
 import { useWindowWidth } from "../utilities/hooks/useWindowWidth";
@@ -9,15 +9,15 @@ import { OffersList } from "./OffersList";
 
 const FamilyDance = () => {
   const windowWidth = useWindowWidth();
-  const getIDHandler = (word: string | undefined): any => {
-    let newWord: any;
-    let newWordSec: any;
-    if (word) {
-      newWord = word.split(" ")[0];
-      newWordSec = word.split(" ")[1];
-      return `${newWord}${newWordSec ? newWordSec : ""}`;
-    }
-  };
+  // const getIDHandler = (word: string | undefined): any => {
+  //   let newWord: any;
+  //   let newWordSec: any;
+  //   if (word) {
+  //     newWord = word.split(" ")[0];
+  //     newWordSec = word.split(" ")[1];
+  //     return `${newWord}${newWordSec ? newWordSec : ""}`;
+  //   }
+  // };
 
   return (
     <>
