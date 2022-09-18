@@ -97,7 +97,7 @@ const Gallery = () => {
         <Loading />
       ) : (
         <section className="gallery">
-          <h1>Nasze studio</h1>
+          <h1>Nasza szkoła tańca</h1>
           <div className="gallery-images">
             {imagesData.images.map((image) => {
               return (

@@ -62,7 +62,7 @@ const TopNav = () => {
             </Link>
           </section>
           <section className="topnav-menu">
-            <Link href="/onaszymstudio">O Nas</Link>
+            <Link href="/o-szkole-tanca">O Nas</Link>
             <div className="dropdown">
               <span
                 className="dropdown-button"
