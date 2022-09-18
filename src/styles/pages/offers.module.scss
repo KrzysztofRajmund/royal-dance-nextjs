@@ -49,6 +49,7 @@
         .offers-title {
           width: fit-content;
           font-size: 1.75rem;
+          background: transparent;
         }
       }
     }
@@ -266,6 +267,22 @@
         }
       }
     }
+    //new offer => subpage
+    &.offer-subpage {
+      article {
+        .cards-content {
+          text-align: left;
+          min-height: 35vh;
+          .cards-content-logo {
+            display: none;
+          }
+
+          .offers-title {
+            display: none;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -303,6 +320,12 @@
     h5 {
       padding-right: 2rem;
       padding-left: 2rem;
+    }
+  }
+  .offers {
+    //new offer => subpage
+    &.offer-subpage {
+      padding: 0;
     }
   }
 }
