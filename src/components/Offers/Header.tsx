@@ -112,7 +112,7 @@ const Header: React.FC<Props> = ({ ...props }) => {
       >
         <div className="header-container">
           <article>
-            <div className="entrance" style={{ marginBottom: isOfferList ? "75px" : '0px', }}>
+            <div className="entrance" style={{ marginBottom: isOfferList ? "90px" : '0px', }}>
               <h1 className="entrance-title"> {props.title}</h1>
               <h5 className="entrance-subtitle">
                 {props.desc.length >= 20 &&

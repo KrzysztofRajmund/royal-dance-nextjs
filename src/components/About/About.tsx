@@ -103,8 +103,8 @@ const About = () => {
         backgroundAttachment: "fixed",
         paddingRight: '0px',
         paddingLeft: '0px',
+        paddingBottom: '0px',
         paddingTop: '900px',
-        paddingBottom: '900px',
       }} >
         <article >
           <div className='cards-content'>
