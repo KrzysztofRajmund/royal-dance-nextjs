@@ -104,7 +104,8 @@ const About = () => {
         paddingRight: '0px',
         paddingLeft: '0px',
         paddingBottom: '0px',
-        paddingTop: '900px',
+        paddingTop: '700px',
+        marginBottom: '5px',
       }} >
         <article >
           <div className='cards-content'>
