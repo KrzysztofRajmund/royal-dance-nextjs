@@ -98,7 +98,6 @@ const HeaderHome = ({ ...props }: Props) => {
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           backgroundAttachment: "fixed",
-          backgroundColor: "red",
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",

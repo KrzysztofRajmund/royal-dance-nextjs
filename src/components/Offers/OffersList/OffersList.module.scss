@@ -1,19 +1,28 @@
 .container {
+  width: 100vw;
   min-height: 75vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   text-align: center;
+  margin: 45px 0;
 
   //   h1 {
   //     color: red;
   //   }
 
   .cards {
+    min-height: 50vh;
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    min-height: 50vh;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .container {
+    margin: 20px 0;
   }
 }
