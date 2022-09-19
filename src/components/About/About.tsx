@@ -1,3 +1,4 @@
+import { faBlackboard } from '@fortawesome/free-solid-svg-icons';
 import Image from 'next/image';
 import Meta from '../utilities/Meta';
 
@@ -92,8 +93,20 @@ const About = () => {
 
         </div>
       </section>
-      <section className='cards-container about'>
-        <article>
+      <section className='cards-container about' style={{
+        backgroundImage: `url(/static/assets/onas-recepcja.jpg)`,
+        width: "100vw",
+        height: "auto",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundAttachment: "fixed",
+        paddingRight: '0px',
+        paddingLeft: '0px',
+        paddingTop: '900px',
+        paddingBottom: '900px',
+      }} >
+        <article >
           <div className='cards-content'>
             <h1>
               <Image
