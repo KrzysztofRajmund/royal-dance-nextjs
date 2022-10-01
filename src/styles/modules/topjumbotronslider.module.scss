@@ -76,6 +76,11 @@
 
 @media screen and (max-width: 615px) {
   .sliders-container {
+    height: 50vh;
+    margin-bottom: 95px;
+    .slider {
+      height: 50vh;
+    }
     .slider-content {
       top: 35%;
       h1 {
