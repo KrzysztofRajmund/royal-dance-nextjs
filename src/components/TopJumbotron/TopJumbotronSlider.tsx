@@ -47,7 +47,7 @@ const TopJumbotronSlider = ({ windowWidth }: Props) => {
     autoplay: true,
     autoplaySpeed: 4000,
   };
-  const images = ['/static/assets/rd-gif.gif', '/static/assets/img8.jpg', '/static/gallery/img1.jpg', '/static/gallery/img2.jpg', '/static/gallery/img30.jpg']
+  const images = ['/static/assets/jumbotron1.jpg', '/static/assets/jumbotron2.jpg', '/static/assets/jumbotron3.jpg', '/static/assets/jumbotron4.jpg', '/static/assets/jumbotron5.jpg']
   const subtitle =
     windowWidth && windowWidth <= 395
       ? "szkoła tańca"
