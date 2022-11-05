@@ -6,7 +6,7 @@ import cx from 'classnames';
 import { stringFormatting } from '../utilities/helpers/formatting';
 import Meta from '../utilities/Meta';
 
-interface ILongDesc {
+export interface ILongDesc {
   h2: string
   bold_1: string
   p_list: string
@@ -16,12 +16,12 @@ interface ILongDesc {
   p_2: string
   bold_3: string
 }
-interface IOffer {
+export interface IOffer {
   id: string
   image: string
   title: string
   subtitle: string
-  desc?: string | undefined
+  desc: string
   longDesc?: ILongDesc | undefined
 
 }
@@ -47,7 +47,7 @@ const Offers: React.FC<IOffer> = ({ id, image, title, subtitle, desc }) => {
         title: data.title,
         subtitle: data.subtitle,
         category: data.category,
-        desc: data.desc || undefined,
+        desc: data.desc,
         longDesc: data.longDesc || undefined
       })
     }
@@ -93,7 +93,7 @@ const Offers: React.FC<IOffer> = ({ id, image, title, subtitle, desc }) => {
           </div>
           <div className="cards-subcontent">
             <h1 className="cards-subcontent-title">{subtitle || offer?.subtitle}</h1>
-            {desc || offer?.desc && <> <br /><p>{desc || offer?.desc}</p></>}
+            {!!desc || !!offer?.desc && <> <br /><p>{desc || offer?.desc}</p></>}
             {offer?.longDesc && <div className="longdesc">
               <h2 className="longdesc-h2">{offer.longDesc.h2}</h2>
               <strong className="longdesc-bold_1">{offer.longDesc.bold_1}</strong>
