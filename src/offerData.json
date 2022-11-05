@@ -5,8 +5,23 @@
             "url": "latino.jpg",
             "category": "taniec-rekreacyjny",
             "title": "Dla Kobiet",
-            "subtitle": "Latino Solo dla Pań",
-            "desc": "Zajęcia Latino Ladies są skierowane do Pań w każdym wieku, na których tańczymy SOLO, więc partner tym razem nie będzie nam potrzebny. Tutaj poznasz świat tańców latynoamerykańskich, gdzie z głośników nieustannie będą wybrzmiewać najmodniejsze rytmy kubańskiej cha-chy, brazylijskiej samby jak również salsy i bachaty. Latino Ladies odbywa się dwa razy w tygodniu i trwa 60 minut. Każde zajęcia rozpoczynamy od dynamicznej rozgrzewki, która już od pierwszych minut wprowadza nas w taneczny wir. Następnie mamy punkt kulminacyjny zajęć, gdzie poznawany taniec „rozbieramy” na taneczne czynniki pierwsze. Pomaga nam to zrozumieć każdy ruch ręki, nogi i naszego całego ciała. W tej części poznajemy również charakter danego tańca i jego krótką historię. Zajęcia kończymy spokojnym akcentem, gdzie przy przygaszonym świetle i cichym muzycznym tle, rozciągamy poszczególne części naszego ciała. Jest to moment wyciszenia i uspokojenia naszego wewnętrznego JA. Jeśli od dawna myślisz żeby zrobić coś dla siebie, zbudować swoją pewność siebie, kobiecość i złapać trochę endorfin to są to zajęcia na pewno dla Ciebie. Pierwsze zajęcia są niezobowiązujące, także nie zastanawiaj się, znajdź w szafie wygodne obuwie i ciuchy i przyjdź z nami potańczyć :)"
+            "subtitle": "Latino Solo dla Pań Szczecin",
+            "longDesc": {
+                "h2": "Zajęcia Latino Ladies są skierowane do Pań w każdym wieku, na których tańczymy SOLO, więc partner tym razem nie będzie nam potrzebny.",
+                "bold_1": "Kilka słów o naszych zajęciach",
+                "p_list": "Tutaj poznasz świat tańców latynoamerykańskich, gdzie z głośników nieustannie będą wybrzmiewać najmodniejsze rytmy:",
+                "list": [
+                    "kubańskiej cha-chy",
+                    "brazylijskiej samby",
+                    "salsy",
+                    "bachaty",
+                    "i wiele innych"
+                ],
+                "p_1": "Latino Ladies odbywa się dwa razy w tygodniu i trwa 60 minut. Każde zajęcia rozpoczynamy od dynamicznej rozgrzewki, która już od pierwszych minut wprowadza nas w taneczny wir. Następnie mamy punkt kulminacyjny zajęć, gdzie poznawany taniec „rozbieramy” na taneczne czynniki pierwsze. Pomaga nam to zrozumieć każdy ruch ręki, nogi i naszego całego ciała. W tej części poznajemy również charakter danego tańca i jego krótką historię. Zajęcia kończymy spokojnym akcentem, gdzie przy przygaszonym świetle i cichym muzycznym tle, rozciągamy poszczególne części naszego ciała. Jest to moment wyciszenia i uspokojenia naszego wewnętrznego JA.",
+                "bold_2": "Brzmi dobrze, prawda?",
+                "p_2": "Jeśli od dawna myślisz żeby zrobić coś dla siebie, zbudować swoją pewność siebie, kobiecość i złapać trochę endorfin to Szkoła Tańca Royal Dance to idealne miejsce dla Ciebie",
+                "bold_3": "Pierwsze zajęcia są niezobowiązujące, także nie zastanawiaj się, znajdź w szafie wygodne ubranie i pokażmy wszystkim ze Szczecin potrafi dobrze tańczyć :)"
+            }
         },
         {
             "id": 1.1,
@@ -21,16 +36,45 @@
             "url": "dla-doroslych.jpg",
             "category": "taniec-rekreacyjny",
             "title": "Dla Dorosłych",
-            "subtitle": "Kurs Tańca dla Dorosłych",
-            "desc": "Monotonne wieczory? Nie u Nas! W naszej ofercie mamy Kurs Tańca dla Dorosłych, gdzie pod okiem profesjonalnego instruktora rozpoczniemy wspólnie taneczną przygodę. Zajęcia dla par odbywają się raz w tygodniu i trwają 60 minut. Jest to idealny czas na spędzenie wspólnie czasu w sposób aktywny oraz ciekawy. Na zajęciach poznamy kroki spokojnego walca angielskiego, dynamicznego jive’a, ale również miłosnej rumby lub tajemniczego slowfoxa. Bez stresu! Zaczynamy od podstaw, dążąc do urozmaiconych choreografii, które będą towarzyszyć Wam na różnych imprezach okolicznościowych lub turniejach tańca? Na nasze zajęcia nie musicie być specjalnie przygotowani. Weźcie ze sobą obuwie zmienne z miękką podeszwą, wygodny strój i przede wszystkim dobry humor."
+            "subtitle": "Kurs Tańca dla Dorosłych Szczecin",
+            "longDesc": {
+                "h2": "Monotonne wieczory? Nie u Nas! W naszej ofercie mamy Kurs Tańca dla Dorosłych, gdzie pod okiem profesjonalnego instruktora rozpoczniemy wspólnie taneczną przygodę.",
+                "bold_1": "Kilka słów o naszych zajęciach",
+                "p_list": "Zajęcia dla par odbywają się raz w tygodniu i trwają 60 minut. Jest to idealny czas na spędzenie wspólnie czasu w sposób aktywny oraz ciekawy. Na  zajęciach poznamy kroki:",
+                "list": [
+                    "spokojnego walca angielskiego",
+                    "dynamicznego jive’a",
+                    "miłosnej rumby",
+                    "tajemniczego slowfoxa",
+                    "żywiołowej salsy",
+                    "i wiele innych"
+                ],
+                "p_1": "",
+                "bold_2": "Stres? Nie u Nas!",
+                "p_2": "Zaczynamy od podstaw, dążąc do urozmaiconych choreografii, które będą towarzyszyć Wam na różnych imprezach okolicznościowych i nie tylko! Na nasze zajęcia nie musicie być specjalnie przygotowani. Weźcie ze sobą obuwie zmienne z miękką podeszwą, wygodny strój i przede wszystkim dobry humor",
+                "bold_3": "Pokażmy, że Szczecin potrafi tańczyć w parach, a z naszą pomocą będzie jeszcze łatwiej."
+            }
         },
         {
             "id": 3,
             "url": "royal-kids.jpg",
             "category": "taniec-rekreacyjny",
             "title": "Dla Dzieci",
-            "subtitle": "Royal Kids",
-            "desc": "Zajęcia Royal Kids przeznaczone są dla grup wiekowych od 3-6 oraz od 6-9 i odbywają się dwa razy w tygodniu. Na tych zajęciach muzyka gra nieprzerwanie, a zabawa jest nierozłączną częścią tanecznych zmagać. Nasze motto „przez zabawę do tańca” w tej grupie sprawdza się w 100%. Dzieci na zajęciach poznają świat tańca współczesnego oraz towarzyskiego. Rytm  spokojnego walca angielskiego czy rytmicznej cha chy na pewno zaciekawi Twoje dziecko, a przy okazji wzbogaci Je o doskonały słuch, a poznane kroki o wspaniałą koordynację ruchową. Każde zajęcia rozpoczynają się rozgrzewką, podczas której wzmacniamy ciała Waszych pociech, zwiększamy zakresy pracy ich mięśni oraz pokazujemy jak prawidłowo się rozciągać. Następnie uczymy się choreografii, które są dobrane do poziomu grupy. Dzieci przez systematyczność i sumienność utrwalają poznane kroki, udoskonalają ich wykonanie, aby jak najlepiej zaprezentować się na Mikołajkowym oraz Wakacyjnym Turnieju Tańca organizowanym przez Naszą Szkołę. Nauka układów tanecznych jest przeplatana, tym co dzieci lubią najbardziej- zabawami. Mają one na celu poprawę spostrzegawczości i szybkości na reagowanie na polecenia. Dodatkowym atutem jest późniejsza możliwość kontynuacji nauki w Grupach Sportowych."
+            "subtitle": "Royal Kids Szczecin",
+            "longDesc": {
+                "h2": "Jesteś Rodzicem i widzisz, że Twoje dziecko posiada poczucie rytmu? Royal Kids to idealne zajęcia dla Twojej Pociechy.  Zajęcia Royal Kids przeznaczone są dla grup wiekowych od 3-6 oraz od 6-9 i odbywają się dwa razy w tygodniu. Na tych zajęciach muzyka gra nieprzerwanie, a zabawa jest nierozłączną częścią tanecznych zmagać",
+                "bold_1": "Jak wyglądają zajęcia?",
+                "p_list": "Każde zajęcia rozpoczynają się rozgrzewką, podczas której:",
+                "list": [
+                    "wzmacniamy ciała Waszych pociech",
+                    "zwiększamy zakresy pracy ich mięśni",
+                    "pokazujemy jak prawidłowo się rozciągać"
+                ],
+                "p_1": "Następnie uczymy się choreografii, które są dobrane do poziomu grupy. Dzieci przez systematyczność i sumienność utrwalają poznane kroki, udoskonalają ich wykonanie.Poznane choreografie Dzieci będą mogły zaprezentować na Mikołajkowym oraz Wakacyjnym Turnieju Tańca organizowanym przez Naszą Szkołę.",
+                "bold_2": "Nasze motto „przez zabawę do tańca” w tej grupie sprawdza się w 100%",
+                "p_2": "Dzieci na zajęciach poznają świat tańca współczesnego oraz towarzyskiego. Rytm spokojnego walca angielskiego czy rytmicznej cha chy na pewno zaciekawi Twoje dziecko, a przy okazji wzbogaci Je o doskonały słuch, a poznane kroki o wspaniałą koordynację ruchową. Nauka układów tanecznych jest przeplatana, tym co dzieci lubią najbardziej- zabawami. Mają one na celu poprawę spostrzegawczości i szybkości reagowania.",
+                "bold_3": "Dodatkowym atutem jest późniejsza możliwość kontynuacji nauki w Grupach Sportowych."
+            }
         },
         {
             "id": 3.1,

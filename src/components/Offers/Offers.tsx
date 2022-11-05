@@ -4,12 +4,24 @@ import { useRouter } from "next/router";
 import offersData from "../../offerData.json";
 import cx from "classnames";
 
+interface ILongDesc {
+  h2: string
+  bold_1: string
+  p_list: string
+  list: string[]
+  p_1: string
+  bold_2: string
+  p_2: string
+  bold_3: string
+}
 interface IOffer {
-  id: string;
-  image: string;
-  title: string;
-  subtitle: string;
-  desc: string;
+  id: string
+  image: string
+  title: string
+  subtitle: string
+  desc?: string | undefined
+  longDesc?: ILongDesc | undefined
+
 }
 
 const Offers: React.FC<IOffer> = ({ id, image, title, subtitle, desc }) => {
@@ -25,7 +37,8 @@ const Offers: React.FC<IOffer> = ({ id, image, title, subtitle, desc }) => {
         image: data.url,
         title: data.title,
         subtitle: data.subtitle,
-        desc: data.desc
+        desc: data.desc || undefined,
+        longDesc: data.longDesc || undefined
       })
     }
   }, [id, router, subtitle]);
@@ -43,20 +56,31 @@ const Offers: React.FC<IOffer> = ({ id, image, title, subtitle, desc }) => {
     <section className={cx("cards-container offers", { 'offer-subpage': offer?.image && offer?.subtitle })}>
       <article id={id || offer?.id}>
         <div className="cards-content" style={sectionStyle}>
-          <h1 className="cards-content-logo">
+          <div className="cards-content-logo">
             <Image
               src="/static/assets/logo2.png"
               alt="logo"
               width={120}
               height={120}
             />
-          </h1>
-          <h1 className="offers-title">{title || offer?.title}</h1>
+          </div>
+          <h2 className="offers-title">{title || offer?.title}</h2>
         </div>
         <div className="cards-subcontent">
-          <p className="cards-subcontent-title">{subtitle || offer?.subtitle}</p>
-          <br />
-          <p>{desc || offer?.desc}</p>
+          <h1 className="cards-subcontent-title">{subtitle || offer?.subtitle}</h1>
+          {desc || offer?.desc && <> <br /><p>{desc || offer?.desc}</p></>}
+          {offer?.longDesc && <div className="longdesc">
+            <h2 className="longdesc-h2">{offer.longDesc.h2}</h2>
+            <strong className="longdesc-bold_1">{offer.longDesc.bold_1}</strong>
+            <p className="longdesc-p_list">{offer.longDesc.p_list}</p>
+            <ul className="longdesc-list">
+              {offer.longDesc.list.map((el, index) => <li key={index}>{el}</li>)}
+            </ul>
+            <p className="longdesc-p_1">{offer.longDesc.p_1}</p>
+            <strong className="longdesc-bold_2">{offer.longDesc.bold_1}</strong>
+            <p className="longdesc-p_2">{offer.longDesc.p_2}</p>
+            <strong className="longdesc-bold_3">{offer.longDesc.bold_3}</strong>
+          </div>}
         </div>
       </article>
     </section>
