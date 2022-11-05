@@ -102,7 +102,7 @@ const Offers: React.FC<IOffer> = ({ id, image, title, subtitle, desc }) => {
                 {offer.longDesc.list.map((el, index) => <li key={index}>{el}</li>)}
               </ul>
               <p className="longdesc-p_1">{offer.longDesc.p_1}</p>
-              <strong className="longdesc-bold_2">{offer.longDesc.bold_1}</strong>
+              <strong className="longdesc-bold_2">{offer.longDesc.bold_2}</strong>
               <p className="longdesc-p_2">{offer.longDesc.p_2}</p>
               <strong className="longdesc-bold_3">{offer.longDesc.bold_3}</strong>
             </div>}
