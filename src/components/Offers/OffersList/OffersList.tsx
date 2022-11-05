@@ -10,7 +10,7 @@ type Offer = {
     category: string;
     title: string;
     subtitle: string;
-    desc: string;
+    desc?: string;
 }
 
 interface IOffersList {

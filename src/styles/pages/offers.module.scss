@@ -2,11 +2,38 @@
   position: relative;
   article {
     .cards-subcontent {
-      text-align: center;
+      &-title {
+        text-transform: uppercase;
+      }
+      .longdesc {
+        &-h2 {
+          font-size: 2rem;
+          font-weight: 400;
+          margin-bottom: 50px;
+        }
+
+        &-bold_1,
+        &-bold_2,
+        &-bold_3 {
+          font-size: 1.8rem;
+        }
+
+        &-p_1,
+        &-p_list,
+        &-list,
+        &-p_2 {
+          font-size: 1.8rem;
+          text-align: left;
+        }
+
+        &-p_1 {
+          margin-bottom: 50px;
+        }
+      }
     }
 
     .cards-content {
-      h1 {
+      div {
         img {
           width: 100px;
           height: auto;
@@ -19,7 +46,9 @@
           transparent,
           rgba(0, 0, 0, 0.719)
         );
-        padding: 5px 10px;
+        color: $supplementaryFontColor;
+        padding: 5px;
+        margin-top: 24px;
         width: 100%;
         font-size: 3.5rem;
         display: flex;
