@@ -24,7 +24,7 @@ const RoyalFit: React.FC = () => {
                 keywords={`${offer?.subtitle}, Taniec Rekreacyjny, Szkoła Tańca Szczecin, Latino Solo Szczecin, Zajęcia dla Pań Szczecin, Taniec Szczecin, Lekcje dla nowożeńców Szczecin, Pierwszy Taniec Szczecin`}
                 type='text'
                 title={`${offer?.subtitle} | Royal Dance Szkoła Tańca`}
-                imageUrl={`https://www.royaldanceszczecin.pl/_ipx/w_1920,q_75/%2Fstatic%2Foffers%2F${offer?.url}?url=%2Fstatic%2Foffers%2F${offer?.image}&w=1920&q=75`}
+                imageUrl={`https://www.royaldanceszczecin.pl/_ipx/w_1920,q_75/%2Fstatic%2Foffers%2F${offer?.url}?url=%2Fstatic%2Foffers%2F${offer?.url}&w=1920&q=75`}
                 description={`${offer?.subtitle}, Taniec Rekreacyjny
                     }, Szkoła Tańca Szczecin, Latino Solo Szczecin, Zajęcia dla Pań Szczecin, Taniec Szczecin, Lekcje dla nowożeńców Szczecin, Pierwszy Taniec Szczecin`}
                 imageAlt='Szkoła Tańca Szczecin'
