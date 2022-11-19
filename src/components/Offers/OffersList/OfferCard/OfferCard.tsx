@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useMemo } from 'react';
-import { stringFormatting } from '../../../utilities/helpers/formatting';
+import { urlFormatting, stringFormatting } from '../../../utilities/helpers/formatting';
 import Meta from '../../../utilities/Meta';
 import styles from './OfferCard.module.scss';
 
@@ -14,9 +14,11 @@ interface IOffer {
 
 export const OfferCard = ({ imageUrl, category, subtitle, id }: IOffer) => {
 
+    const url = useMemo(() => urlFormatting(subtitle), [subtitle])
+
     return (
         <>
-            <Link href={`/${category}/${stringFormatting(subtitle, " ", "-")}`} passHref>
+            <Link href={`/${url}`} passHref>
                 <div className={styles.card}>
                     <div className={styles.image}>
                         <Image
