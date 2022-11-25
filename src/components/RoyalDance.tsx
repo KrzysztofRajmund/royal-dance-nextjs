@@ -17,7 +17,7 @@ const RoyalDance = () => {
       />
       <>
         <TopJumbotronSlider />
-        <About />
+        <About withMetaTags={false} />
         <Cards />
       </>
     </>

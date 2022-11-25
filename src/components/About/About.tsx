@@ -2,7 +2,11 @@ import { faBlackboard } from '@fortawesome/free-solid-svg-icons';
 import Image from 'next/image';
 import Meta from '../utilities/Meta';
 
-const About = () => {
+type Props = {
+  withMetaTags: boolean
+}
+
+const About = ({ withMetaTags = true }: Props) => {
   const instructors = [
     {
       id: 1,
@@ -61,7 +65,7 @@ const About = () => {
   ];
   return (
     <>
-      <Meta
+      {withMetaTags && <Meta
         webUrl='https://www.royaldanceszczecin.pl/o-szkole-tanca'
         keywords='Szkoła Tańca Szczecin, Latino Solo Szczecin, Zajęcia dla Pań Szczecin, Taniec Szczecin, Lekcje dla nowożeńców Szczecin, Pierwszy Taniec Szczecin'
         type='text'
@@ -69,7 +73,7 @@ const About = () => {
         description='Szkoła Tańca Szczecin, Latino Solo Szczecin, Zajęcia dla Pań Szczecin, Taniec Szczecin, Lekcje dla nowożeńców Szczecin, Pierwszy Taniec Szczecin'
         imageUrl='https://www.royaldanceszczecin.pl/_ipx/w_1080,q_75/%2Fstatic%2Fgallery%2Fimg6.jpg?url=%2Fstatic%2Fgallery%2Fimg6.jpg&w=1080&q=75'
         imageAlt='Szkoła Tańca Szczecin'
-      />
+      />}
       <section className='instructors'>
         <div className='instructors-cards'>
           {instructors.map((instructor) => {
