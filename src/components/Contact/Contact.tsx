@@ -32,13 +32,13 @@ const Contact: React.FC = () => {
         <article>
           <div className="cards-content contact-contact">
             <h1>Magdalena Geldner</h1>
-            <h1>
+            <h6>
               <a href="tel:+48-662-175-111">Tel. 662 175 111</a>
               <br />
               <a href="mailto:royaldance.szczecin@gmail.com?&subject=Royal Dance&body=Jak możemy pomóc?">
                 <FontAwesomeIcon icon={faEnvelope} width={60} height={60} />
               </a>
-            </h1>
+            </h6>
           </div>
           <div className="cards-subcontent contact-address">
             <a
@@ -46,15 +46,15 @@ const Contact: React.FC = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <h1>Adres</h1>
-              <h1>
+              <h6>Adres</h6>
+              <h2>
                 Lelewela 8a
                 <br />
                 71-154
                 <br />
                 Szczecin
                 <br />
-              </h1>
+              </h2>
             </a>
           </div>
           <a

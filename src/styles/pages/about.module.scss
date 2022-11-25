@@ -11,18 +11,22 @@
           font-weight: bolder;
         }
       }
+
       h2,
+      .title,
       li {
         font-size: $paragraphFontSize;
         text-align: start;
       }
-      h2 {
+      h2,
+      .title {
         text-indent: 15px;
       }
     }
 
     .cards-content {
-      h1 {
+      text-align: center;
+      .cards-content-logo {
         img {
           width: 150px;
           height: auto;

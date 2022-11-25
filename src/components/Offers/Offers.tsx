@@ -95,7 +95,7 @@ const Offers: React.FC<IOffer> = ({ id, image, title, subtitle, desc }) => {
             <h1 className="cards-subcontent-title">{subtitle || offer?.subtitle}</h1>
             {!!desc || !!offer?.desc && <> <br /><p>{desc || offer?.desc}</p></>}
             {offer?.longDesc && <div className="longdesc">
-              <h2 className="longdesc-h2">{offer.longDesc.h2}</h2>
+              <p className="longdesc-h2">{offer.longDesc.h2}</p>
               <strong className="longdesc-bold_1">{offer.longDesc.bold_1}</strong>
               <p className="longdesc-p_list">{offer.longDesc.p_list}</p>
               <ul className="longdesc-list">

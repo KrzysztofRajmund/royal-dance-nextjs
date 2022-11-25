@@ -16,7 +16,7 @@ const Info: React.FC = () => {
                 </div>
             </section>
             <section className="container">
-                <h1>Cennik zajęć</h1>
+                <h6>Cennik zajęć</h6>
                 <div className="card">
                     <h2>Taniec rekreacyjny</h2>
                     <Image src='/static/assets/cennik-rekreacja.png' alt='cennik-rekreacja' width={1000} height={820} />

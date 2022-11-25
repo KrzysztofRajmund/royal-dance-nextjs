@@ -25,7 +25,7 @@
     background-color: transparent;
     padding: 6rem 1rem 9rem 1rem;
 
-    h1 {
+    .slider-title {
       font-weight: 600;
       font-size: 8rem;
       letter-spacing: 0.5rem;
@@ -54,10 +54,6 @@
     .slider-subtitle .words {
       display: inline-block;
     }
-
-    .slider-title .words {
-      display: inline-block;
-    }
   }
   //react-slick native classes
   .slick-dots {
@@ -83,7 +79,7 @@
     }
     .slider-content {
       top: 35%;
-      h1 {
+      .slider-title {
         font-size: 4rem;
         padding-right: 2rem;
         padding-left: 2rem;
@@ -104,7 +100,7 @@
 @media screen and (max-width: 445px) {
   .sliders-container {
     .slider-content {
-      h1 {
+      .slider-title {
         font-size: 3rem;
         padding-right: 0rem;
         padding-left: 0rem;

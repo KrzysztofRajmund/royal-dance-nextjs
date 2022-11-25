@@ -1,11 +1,9 @@
 import Cards from "./Cards/Cards";
 import About from './About/About';
-import { useWindowWidth } from "./utilities/hooks/useWindowWidth";
 import Meta from "./utilities/Meta";
 import TopJumbotronSlider from "./TopJumbotron/TopJumbotronSlider";
 
 const RoyalDance = () => {
-  const windowWidth = useWindowWidth();
   return (
     <>
       <Meta
@@ -17,13 +15,11 @@ const RoyalDance = () => {
         imageUrl="https://www.royaldanceszczecin.pl/_ipx/w_1080,q_75/%2Fstatic%2Fgallery%2Fimg6.jpg?url=%2Fstatic%2Fgallery%2Fimg6.jpg&w=1080&q=75"
         imageAlt="Szkoła Tańca Szczecin"
       />
-      {windowWidth && (
-        <>
-          <TopJumbotronSlider windowWidth={windowWidth} />
-          <About />
-          <Cards />
-        </>
-      )}
+      <>
+        <TopJumbotronSlider />
+        <About />
+        <Cards />
+      </>
     </>
   );
 };
