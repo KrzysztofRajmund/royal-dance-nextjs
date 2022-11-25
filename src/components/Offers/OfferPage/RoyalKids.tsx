@@ -23,7 +23,7 @@ const RoyalKids: React.FC = () => {
                 webUrl={`https://www.royaldanceszczecin.pl/royal-kids`}
                 keywords={`${offer?.subtitle}, Taniec Rekreacyjny, Szkoła Tańca Szczecin, Latino Solo Szczecin, Zajęcia dla Pań Szczecin, Taniec Szczecin, Lekcje dla nowożeńców Szczecin, Pierwszy Taniec Szczecin`}
                 type='text'
-                title={`${offer?.subtitle} | Royal Dance Szkoła Tańca`}
+                title='Taniec dla dzieci Szczecin'
                 imageUrl={`https://www.royaldanceszczecin.pl/_ipx/w_1920,q_75/%2Fstatic%2Foffers%2F${offer?.url}?url=%2Fstatic%2Foffers%2F${offer?.url}&w=1920&q=75`}
                 description={`${offer?.subtitle}, Taniec Rekreacyjny
                     }, Szkoła Tańca Szczecin, Latino Solo Szczecin, Zajęcia dla Pań Szczecin, Taniec Szczecin, Lekcje dla nowożeńców Szczecin, Pierwszy Taniec Szczecin`}
