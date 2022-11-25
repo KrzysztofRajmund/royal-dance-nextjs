@@ -30,7 +30,7 @@ export const OfferCard = ({ imageUrl, category, subtitle, id }: IOffer) => {
                             objectFit='cover'
                         />
                     </div>
-                    <h1>{subtitle.replace("Szczecin", "")}</h1>
+                    <h2>{subtitle.replace("Szczecin", "")}</h2>
                 </div>
             </Link>
         </>

@@ -20,14 +20,14 @@ const Cards = () => {
     <section className="cards-container">
       <article>
         <div className="cards-content">
-          <h1 className="cards-content-logo">
+          <div className="cards-content-logo">
             <Image
               src="/static/assets/logo2.png"
               alt="logo"
               objectFit="contain"
               layout="fill"
             />
-          </h1>
+          </div>
         </div>
         <div className="cards-subcontent">
           <p>

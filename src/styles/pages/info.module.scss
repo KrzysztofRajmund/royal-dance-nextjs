@@ -5,7 +5,8 @@
   align-items: center;
   background-color: $blackBackground;
 
-  h1 {
+  h1,
+  h6 {
     font-size: 1.5 * $titleFontSize;
     line-height: 5rem;
     margin-top: 10rem;

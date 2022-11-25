@@ -6,13 +6,11 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 //anime
 import anime from "animejs";
+import { useWindowWidth } from '../utilities/hooks/useWindowWidth';
 
-interface Props {
-  windowWidth: number;
-}
 
-const TopJumbotronSlider = ({ windowWidth }: Props) => {
-
+const TopJumbotronSlider = () => {
+  const windowWidth = useWindowWidth();
   const animationLoad = (delay: number, className: string) => {
     var sliderSubtitle: any = document.querySelector(className);
     const regex = /\S/g;
@@ -69,7 +67,7 @@ const TopJumbotronSlider = ({ windowWidth }: Props) => {
             />
             <article className="slider-content">
               <div>
-                <h1>Royal Dance</h1>
+                <div className="slider-title">Royal Dance</div>
                 <h5 className="slider-subtitle">{subtitle}</h5>
                 <h5 className="slider-info">{info}</h5>
               </div>

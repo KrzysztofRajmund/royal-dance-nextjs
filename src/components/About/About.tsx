@@ -109,15 +109,15 @@ const About = () => {
       }} >
         <article >
           <div className='cards-content'>
-            <h1>
+            <div className="cards-content-logo">
               <Image
                 src='/static/assets/logo2.png'
                 alt='logo'
                 width={120}
                 height={120}
               />
-            </h1>
-            <h1>Szkoła Tańca</h1>
+            </div>
+            <h1 className="title">Szkoła Tańca Szczecin</h1>
           </div>
           <div className='cards-subcontent'>
             <p className='cards-subcontent-title'>
